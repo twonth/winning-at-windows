@@ -1,5 +1,5 @@
 # winning-at-windows
-A list of Windows 11 software and tweaks that this carbon-based lifeform finds useful
+Windows 11 software and tweaks that *I* find useful. The list is (intentionally) personal and is not meant to be a comprehensive database of all programs of this kind. While the software mentioned below has proven useful to me, not all carbon-based life forms  share the same workflow or tastes. Consider yourself warned.
 
 ## "Ricing" (appearance customization)
 
