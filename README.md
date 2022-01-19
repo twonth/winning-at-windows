@@ -19,7 +19,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc.
 
-* [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons
+* [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations.
 
 * [CustomizerGod](https://www.door2windows.com/customizergod/): User-friendly way to replace certain Windows system icons. Was never updated for Windows 11 (or even later builds of Windows 10), but still functional if handled with care.
 
