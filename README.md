@@ -11,6 +11,7 @@ A list of Windows 11 software and tweaks that this carbon-based lifeform finds u
 
 * [WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop): wallpaper that changes with the time of day, a la MacOS.
 
+* for animated wallpapers, check out [Wallpaper Engine](https://www.wallpaperengine.io/en) or (an open source alternative) [Lively Wallpaper](https://rocksdanister.github.io/lively/)
 
 * [RoundedTB](https://github.com/torchgm/RoundedTB): Add margins and/or rounded corners to the taskbar.
 
@@ -60,10 +61,9 @@ A list of Windows 11 software and tweaks that this carbon-based lifeform finds u
 
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet): Replacement for the Windows system tray audio control widget. Much more functional, e.g., including per-app volume control.
 
-* [BatteryMode](https://github.com/tarcode-apps/BatteryMode): Alternative battery system tray icon. More information than the default widget and more customization options too.
+* [BatteryMode](https://github.com/tarcode-apps/BatteryMode): Alternative battery system tray widget. More information than the default widget more customization options too (e.g., bring back the Windows 7 icon).
 
-
-* [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable.
+* [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable. 
 
 * [Pantherbar](https://pantherbar-app.com/): Whenever you select text, pops up a menu with possible ``quick actions'' (such as copy, cut, search in Google, run through Google Translate).
 
@@ -81,9 +81,9 @@ A list of Windows 11 software and tweaks that this carbon-based lifeform finds u
 * [deviantart](https://www.deviantart.com/): So much to see here! Some of my favorites include (but are not limited to)...
     * anything by [Niivu](https://www.deviantart.com/niivu), especially his Windows themes
     * the  `iconic creations' of [Octaviotti](https://www.deviantart.com/octaviotti)
-    * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): filetype icons. 
+    * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): gorgeous filetype icons. 
 
-* [500px](https://500px.com): brilliant way to discover gorgeous photos, many of which make excellent wallpapers.
+* [500px](https://500px.com): brilliant way to discover photos, many of which make excellent wallpapers.
 
 * [wallhaven](https://wallhaven.cc): large database of wallpapers.
 
