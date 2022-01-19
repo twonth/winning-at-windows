@@ -50,7 +50,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [WizTree](https://diskanalyzer.com/): shows, visually, which files are taking up space on your drive.  Very fast on NTFS-formatted drives.
 
-* [geek uninstaller](https://geekuninstaller.com/): Improves on the built in Windows uninstaller with a force removal tool and leftover detection. 
+* [geek uninstaller](https://geekuninstaller.com/): Improves on the stock uninstaller with a force removal tool and leftover detection. 
 
 ## Usability enhancements
 
