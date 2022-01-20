@@ -89,6 +89,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [wallhaven](https://wallhaven.cc): large database of wallpapers.
 
+* [IconArchive](https://iconarchive.com/): Remarkably extensive collection of icons. Plug in a keyword and look for something in a style that suits you.
+
 ## Low-level "hacks"
 
 * Open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0/`
