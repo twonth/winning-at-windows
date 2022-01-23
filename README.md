@@ -21,9 +21,9 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations.
 
-* [CustomizerGod](https://www.door2windows.com/customizergod/): User-friendly way to replace certain Windows system icons. Was never updated for Windows 11 (or even later builds of Windows 10), but still functional if handled with care.
+* [CustomizerGod](https://www.door2windows.com/customizergod/): User-friendly way to replace certain Windows system icons. Was never updated for Windows 11 (or even later builds of Windows 10), so handle with care.
 
-* [Resource Hacker](http://www.angusj.com/resourcehacker/): view and edit resources in EXE, DLL files. Useful for changing certain stubborn program icons.
+* [Resource Hacker](http://www.angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons. To gain the correct permissions to customize icons built in to Windows, you will want to run Resource Hacker with something like [NSudo](https://github.com/M2Team/NSudo). Windows keeps many (but not all) of its icons in **\Windows\SystemResources\shell32.dll.mun** and **\Windows\SystemResources\imageres.dll.mun**.
 
 * [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!) 
 
