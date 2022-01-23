@@ -59,7 +59,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver.
 
-* [Winaero Tweaker](https://winaero.com/winaero-tweaker/): adjust "secret" Windows settings. I use it, e.g., to change the Quick Access icon in the navigation pane, though this results in a duplicate icon for some reason; the fix is [here](https://www.tenforums.com/customization/157112-duplicate-quick-access-navigation-pane.html).
+* [Winaero Tweaker](https://winaero.com/winaero-tweaker/): adjust many (!) "secret" Windows settings. For example, you can modify which folders show up under This PC, and you change the Quick Access icon in the navigation pane (though this results in a duplicate icon for some reason; the fix is [here](https://www.tenforums.com/customization/157112-duplicate-quick-access-navigation-pane.html)).
 
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet): Replacement for the Windows system tray audio control widget. Much more functional, e.g., including per-app volume control.
 
