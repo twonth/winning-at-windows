@@ -5,7 +5,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as IconPackager (replaces the most common system icons), WindowFX (adds effects when opening, closing, minizing, moving windows), TouchTasks (triggers actions by touching certain screen corners), and Start 11 (alternative start menu layouts). 
 
-* Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/).
+* Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/) and [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu).
 
 * [MyDockFinder](https://store.steampowered.com/app/1787090/MyDockFinder/): a Maclike dock.
 
