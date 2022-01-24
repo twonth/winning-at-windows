@@ -7,7 +7,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/) and [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu).
 
-* [MyDockFinder](https://store.steampowered.com/app/1787090/MyDockFinder/): a Maclike dock.
+* [MyDockFinder](https://store.steampowered.com/app/1787090/MyDockFinder/): Mac-like dock and Finder bar. 
 
 * [WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop): wallpaper that changes with the time of day, a la MacOS.
 
@@ -29,7 +29,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Rainmeter](https://www.rainmeter.net/): tool for displaying desktop widgets. An endless number of Rainmeter skins are on deviantArt (but beware that many, especially ones that are older, do not play nice with modern high DPI displays). If you use a tablet or frequently change screen resolutions for any other reason, grab [RainRez](https://forum.rainmeter.net/viewtopic.php?f=18&t=10471&hilit=rainrez) as well. 
 
-* [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS).
+    * [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS).
+    * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most popular (deservedly) skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
 * [WeatherBar](https://weatherbarapp.com/): weather in your Windows system tray. 
 
@@ -37,8 +38,6 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 ## System maintenance and optimization
 
 * [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version.
-
-* [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). An alternative, which can be pinned to the taskbar (on Windows 10, or on Windows 11 if you use something like ExplorerPatcher) is [BatteryBar](https://batterybarpro.com/).
 
 * [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The nightly versions have dark mode support.
 
@@ -54,7 +53,6 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 ## Usability enhancements
 
-
 * [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores much of the missing functionality of Windows 11 (and much else besides). I like the clean-looking Alt-Tab replacement that the author built in .
 
 * [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver.
@@ -63,17 +61,19 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet): Replacement for the Windows system tray audio control widget. Much more functional, e.g., including per-app volume control.
 
+* [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). An alternative, which can be pinned to the taskbar (on Windows 10, or on Windows 11 if you use something like ExplorerPatcher) is [BatteryBar](https://batterybarpro.com/).
+
 * [BatteryMode](https://github.com/tarcode-apps/BatteryMode): Alternative battery system tray widget. More information than the default widget more customization options too (e.g., bring back the Windows 7 icon).
 
 * [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable. 
 
 * [Pantherbar](https://pantherbar-app.com/): Whenever you select text, pops up a menu with possible ``quick actions'' (such as copy, cut, search in Google, run through Google Translate).
 
-* [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu
-
 * [Snipaste](https://www.snipaste.com/): full-featured and customizable screen snipping tool. Can auto-detect certain portions of the screen that are natural candidates for capture.
 
 * [Ditto](https://ditto-cp.sourceforge.io/): good looking clipboard manager for Windows.
+
+* [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu
 
 * [DragDropConfirm](https://github.com/broken-e/DragDropConfirm): shell extension that adds a confirmation dialogue before moving files in File Explorer. Essential for those with touchscreen devices and slippery fingers.
 
