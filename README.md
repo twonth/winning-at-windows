@@ -43,7 +43,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Chocolatey](https://chocolatey.org/): package manager for Windows, through powershell.
 
-* [Nativeifier](https://github.com/nativefier/nativefier): Wrapper to turn webapps into standalone applications.
+* [Nativefier](https://github.com/nativefier/nativefier): Wrapper to turn webapps into standalone applications.
 
 * [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns): comprehensive startup process manager.
 
