@@ -47,7 +47,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns): comprehensive startup process manager.
 
-* [WizTree](https://diskanalyzer.com/): shows, visually, which files are taking up space on your drive.  Very fast on NTFS-formatted drives.
+* [WizTree](https://diskanalyzer.com/): shows, visually, which files are taking up space on your drive.  Very fast on NTFS-formatted drives. A (paid) alternative with a nicer UI is [FolderSizes](https://www.foldersizes.com/).
 
 * [geek uninstaller](https://geekuninstaller.com/): Improves on the stock uninstaller with a force removal tool and leftover detection. 
 
