@@ -53,7 +53,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 ## Usability enhancements
 
-* [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores much of the missing functionality of Windows 11 (and much else besides). I like the clean-looking Alt-Tab replacement that the author built in .
+* [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in .
 
 * [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver.
 
@@ -90,6 +90,12 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [wallhaven](https://wallhaven.cc): large database of wallpapers.
 
 * [IconArchive](https://iconarchive.com/): Remarkably extensive collection of icons. Plug in a keyword and look for something in a style that suits you.
+
+* [macOSicons](https://macosicons.com) has a MacOS-style icon for almost everything.
+
+* those who appreciate the Windows 10/11 icon design language will want to check out the [Fluency collection](https://icons8.com/icons/fluency) at [icons8](https://icons8.com).
+
+* there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons). 
 
 ## Low-level "hacks"
 
