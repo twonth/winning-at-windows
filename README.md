@@ -48,7 +48,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [WizTree](https://diskanalyzer.com/): shows, visually, which files are taking up space on your drive.  Very fast on NTFS-formatted drives. A (paid) alternative with a nicer UI is [FolderSizes](https://www.foldersizes.com/).
 
-* [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): Thorough uninstall tool. Advanced detection capabilities (e.g., knows about programs installed through chocolatey) as well as leftover detection features. Has replaced geek uninstaller in my removal tool arsenal.
+* [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): Thorough uninstall tool. Advanced detection capabilities (e.g., knows about programs installed through chocolatey) as well as leftover detection features. A less thorough but much faster-to-start program in the same vein is [geek uninstaller](https://geekuninstaller.com/).
 
 ## Usability enhancements
 
@@ -100,13 +100,21 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons). 
 
-## Low-level "hacks"
+## Hacks
 
 * Open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0/`
 
 * Change taskbar icons of pinned UWP apps. One needs [Win7AppId1.1](https://code.google.com/archive/p/win7appid/downloads). Get the AppID of the desired app by running `get-StartApps | Format-Table | Out-String -width 9999` in PowerShell. Create a custom shortcut  to `explorer.exe shell:appsFolder\YOURAPPID`. Back in Powershell, run `Win7AppId1.1 "YourAppShortcut.lnk" "YOURAPPID"`. Change the icon of the shortcut to whatever you desire, then pin the icon to the taskbar. (Thanks to dpcdpc11 for making me aware of [this method](https://dpcdpc11.com/custom-taskbar-icons-guide/)!)
 
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
+
+* Configure Stardock TouchTasks to open Alt-Tab. The built in task switcher in TouchTasks seems buggy. Using the method described [here](https://www.winhelponline.com/blog/launch-alt-tab-switcher-script-command-line-mouse/), you can configure a touch action that opens the default Alt-Tab panel. First, create a wswitcher.vbs file with the contents
+
+    `Set WshShell = WScript.CreateObject("WScript.Shell")
+    WshShell.SendKeys "^%{TAB}"`
+
+    Then create a shortcut to `C:\Windows\System32\wscript.exe c:\wswitcher\wswitcher.vbs`. (Of course, replace the locations of the files appropriately.) Finally, assign TouchTasks to open the shortcut link.
+
 
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., this very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-20#post-1687577). Forum registration required.
 
