@@ -108,13 +108,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
 
-* Configure Stardock TouchTasks to open Alt-Tab. The built in task switcher in TouchTasks seems buggy. Using the method described [here](https://www.winhelponline.com/blog/launch-alt-tab-switcher-script-command-line-mouse/), you can configure a touch action that opens the default Alt-Tab panel. First, create a wswitcher.vbs file with the contents
-
-    `Set WshShell = WScript.CreateObject("WScript.Shell")`     
-        `WshShell.SendKeys "^%{TAB}"`
-
-    Then create a shortcut to `C:\Windows\System32\wscript.exe c:\wswitcher\wswitcher.vbs`. (Of course, replace the locations of the files appropriately.) Finally, assign TouchTasks to open the shortcut link.
-
+* Configure Stardock TouchTasks to open Alt-Tab. In Windows 10, swiping from the left opened the window overview panel. In Windows 11, this action has been remapped to the widgets panel (boo!). You can get close to what we had in Windows 10 with TouchTasks. First, [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.). Then install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and create a shortcut to `C:\nircmd-x64\nircmd.exe sendkeypress lwin+tab` (replacing the location of nircmd appropriately). Then use TouchTasks to assign the shortcut link to a touchpoint. By default, TouchTasks looks for .exe files, but if you first enter *.lnk in the file dialogue and **then** select your shorcut, it gets properly assigned.
 
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., this very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-20#post-1687577). Forum registration required.
 
