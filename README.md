@@ -110,9 +110,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * Configure Stardock TouchTasks to open Alt-Tab. The built in task switcher in TouchTasks seems buggy. Using the method described [here](https://www.winhelponline.com/blog/launch-alt-tab-switcher-script-command-line-mouse/), you can configure a touch action that opens the default Alt-Tab panel. First, create a wswitcher.vbs file with the contents
 
-    `Set WshShell = WScript.CreateObject("WScript.Shell")`
-    
-    `WshShell.SendKeys "^%{TAB}"`
+    `Set WshShell = WScript.CreateObject("WScript.Shell")`     
+        `WshShell.SendKeys "^%{TAB}"`
 
     Then create a shortcut to `C:\Windows\System32\wscript.exe c:\wswitcher\wswitcher.vbs`. (Of course, replace the locations of the files appropriately.) Finally, assign TouchTasks to open the shortcut link.
 
