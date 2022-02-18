@@ -3,7 +3,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 ## "Ricing" (appearance customization)
 
-* [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as IconPackager (replaces the most common system icons), WindowFX (adds effects when opening, closing, minimizing, moving windows), TouchTasks (triggers actions by touching certain screen corners), and Start 11 (alternative start menu layouts). 
+* [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as [IconPackager](https://www.stardock.com/products/iconpackager/) (replaces the most common system icons), [WindowFX](https://www.stardock.com/products/windowfx/) (adds effects when opening, closing, minimizing, moving windows), [TouchTasks](https://www.stardock.com/products/touchtasks/) (triggers actions by touching certain screen corners), and [Start11](https://www.stardock.com/products/start11/) (alternative start menu layouts). 
 
 * Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/) and [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu).
 
@@ -80,6 +80,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [DragDropConfirm](https://github.com/broken-e/DragDropConfirm): shell extension that adds a confirmation dialogue before moving files in File Explorer. Essential for those with touchscreen devices and slippery fingers.
 
+* [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to hide/unhide the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
 
 ## Icons and other art
 
