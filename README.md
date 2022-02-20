@@ -33,7 +33,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most popular (deservedly) skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
-* prettify Explorer by adding thumbnail previews for more filetypes: see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm), and also look [here](https://www.cuminas.jp/en/downloads) for DJVU. 
+* prettify Explorer by adding thumbnail previews for more filetypes: see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). For DJVU, see [here](https://www.cuminas.jp/en/downloads).
 
 ## System maintenance and optimization
 
