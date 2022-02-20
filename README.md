@@ -29,10 +29,11 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Rainmeter](https://www.rainmeter.net/): tool for displaying desktop widgets. An endless number of Rainmeter skins are on deviantArt (but beware that many, especially ones that are older, do not play nice with modern high DPI displays). If you use a tablet or frequently change screen resolutions for any other reason, grab [RainRez](https://forum.rainmeter.net/viewtopic.php?f=18&t=10471&hilit=rainrez) as well. 
 
-    * [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS).
-    * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most popular (deservedly) skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
+* [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS).
 
+* [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most popular (deservedly) skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
+* prettify Explorer by adding thumbnail previews for more filetypes: see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm).
 
 ## System maintenance and optimization
 
@@ -50,7 +51,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): Thorough uninstall tool. Advanced detection capabilities (e.g., knows about programs installed through chocolatey) as well as leftover detection features. A less thorough but much faster-to-start program in the same vein is [geek uninstaller](https://geekuninstaller.com/).
 
-## Usability enhancements
+## Usability/Quality of life enhancements
 
 * [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in as well as the taskbar weather widget.
 
@@ -75,6 +76,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [Seer](http://1218.io): preview a file by pressing the space bar from File Explorer (similar to Quick Look on MacOS). Gets props for having a nice dark mode. 
 
 * [Ditto](https://ditto-cp.sourceforge.io/): good looking clipboard manager for Windows.
+
+* [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Roll up Windows (or close, minimize, etc...) by pressing Alt and middle-clicking.
 
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu
 
