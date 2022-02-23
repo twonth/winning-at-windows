@@ -33,7 +33,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most popular (deservedly) skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
-* prettify Explorer by adding thumbnail previews for more filetypes: see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). For DJVU, see [here](https://www.cuminas.jp/en/downloads).
+* prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/tibold/svg-explorer-extension). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!). 
 
 ## System maintenance and optimization
 
@@ -77,7 +77,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Ditto](https://ditto-cp.sourceforge.io/): good looking clipboard manager for Windows.
 
-* [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Roll up Windows (or close, minimize, etc...) by pressing Alt and middle-clicking.
+* [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Put Windows always on top (or roll them up, close, minimize, ...) by pressing Alt and middle-clicking.
 
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu
 
