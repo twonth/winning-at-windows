@@ -76,7 +76,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Snipaste](https://www.snipaste.com/): full-featured and customizable screen snipping tool. Can auto-detect certain portions of the screen that are natural candidates for capture.
 
-* [QuickLook](https://github.com/QL-Win/QuickLook) or [Seer](http://1218.io): instant file preview in File Explorer, upon pressing the space bar.
+* [QuickLook](https://github.com/QL-Win/QuickLook) or [Seer](http://1218.io): instant file preview in File Explorer, upon pressing the space bar (as in MacOS).
 
 * [Ditto](https://ditto-cp.sourceforge.io/): good looking clipboard manager for Windows.
 
