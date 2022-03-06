@@ -53,6 +53,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [O&O RegEditor](https://www.oo-software.com/en/ooregeditor): User-friendly registry editor. Much better search functions than the built in RegEdit.
 
+* [Compactor](https://github.com/Freaky/Compactor): GUI to Windows' built in file and folder compression tools. Useful especially (but not only) for games.
+
 * [Mp3tag](https://www.mp3tag.de/en/): easily edit audio files' metadata. Useful when you notice that only half of an album's MP3s are displaying the correct cover art.
 
 
