@@ -35,7 +35,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!). 
 
-## System maintenance 
+## System maintenance and optimization
 
 * [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version.
 
@@ -54,6 +54,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [O&O RegEditor](https://www.oo-software.com/en/ooregeditor): User-friendly registry editor. Much better search functions than the built in RegEdit.
 
 * [Compactor](https://github.com/Freaky/Compactor): GUI to Windows' built in file and folder compression tools. Useful especially (but not only) for games.
+
+* [FileOptimizer](https://nikkhokkho.sourceforge.io/static.php?page=FileOptimizer): Lossless file size reduction for many different file formats. Saved me about 0.87 GB when run on roughly 10 GB worth of PDFs (~ 600 files).
 
 * [Mp3tag](https://www.mp3tag.de/en/): easily edit audio files' metadata. Useful when you notice that only half of an album's MP3s are displaying the correct cover art.
 
