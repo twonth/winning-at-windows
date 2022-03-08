@@ -80,7 +80,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). 
 
 * Alternative battery widgets
-    * [BatteryBar](https://batterybarpro.com/): toolbar capable of displaying both the percentage of battery power remaining and an intelligent estimate of remaining battery life. Can be floating or (if you use something like ExplorerPatcher) pinned to the taskbar.
+    * [BatteryBar](https://batterybarpro.com/): good-looking battery meter capable of displaying calibrated runtime estimates. Can be floating or (if you use something like ExplorerPatcher) pinned as a toolbar to the standard taskbar.
     * [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
     * [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
 
