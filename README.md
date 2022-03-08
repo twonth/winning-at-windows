@@ -77,9 +77,12 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet): Replacement for the Windows system tray audio control widget. Much more functional, e.g., including per-app volume control.
 
-* [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). An alternative, which can be pinned to the taskbar (on Windows 10, or on Windows 11 if you use something like ExplorerPatcher) is [BatteryBar](https://batterybarpro.com/).
+* [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). 
 
-* [BatteryMode](https://github.com/tarcode-apps/BatteryMode): Alternative battery system tray widget. More information than the default widget more customization options too (e.g., bring back the Windows 7 icon).
+* Alternative battery widgets
+    * [BatteryBar](https://batterybarpro.com/): toolbar capable of displaying both the percentage of battery power remaining and an intelligent estimate of remaining battery life. 
+    * [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
+    * [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
 
 * [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable. 
 
