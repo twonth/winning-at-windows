@@ -1,4 +1,5 @@
 # winning-at-windows
+
 Windows 11 software and tweaks that *I* find useful. The list is (intentionally) personal and is not meant to be a comprehensive database of all programs of this kind. While the software mentioned below has proven useful to me, not all carbon-based life forms  share the same workflow or tastes. Consider yourself warned.
 
 ## "Ricing" (appearance customization)
@@ -59,8 +60,6 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Mp3tag](https://www.mp3tag.de/en/): easily edit audio files' metadata. Useful when you notice that only half of an album's MP3s are displaying the correct cover art.
 
-
-
 ## Usability/Quality of life enhancements
 
 * [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in as well as the taskbar weather widget.
@@ -69,20 +68,13 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Everything](https://www.voidtools.com/) and [EverythingToolbar](https://github.com/stnkl/EverythingToolbar): Instant search by filename. I have had strange seeming search results with Fluent Search as it comes out of the box; Everything, without trying to be as clever, often gets me directly where I want to go, and it can be configured as the Fluent Search indexing engine. EverythingToolbar seamlessly integrates Everything into the Windows taskbar.
 
-
 * [TeraCopy](https://www.codesector.com/teracopy): replacement handler for copy/paste operations in Windows. Better queueing, logging, and verification features than native. Also prompts you to choose which handler to use for any copy move operation, which I find useful for preventing unintentional transfers, especially on touchscreen devices! (But if all you want is a confirmation dialogue when doing moves via drag and drop, try [DragDropConfirm](https://github.com/broken-e/DragDropConfirm).) 
-
 
 * [Winaero Tweaker](https://winaero.com/winaero-tweaker/): adjust many (!) "secret" Windows settings. For example, you can modify which folders show up under This PC, and you change the Quick Access icon in the navigation pane (though for me this always results in a duplicate navigation pane icon; seems better to avoid WinAeroTweaker for this and just directly edit the registry key `HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\DefaultIcon`).
 
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet): Replacement for the Windows system tray audio control widget. Much more functional, e.g., including per-app volume control.
 
 * [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). 
-
-* Alternative battery widgets
-    * [BatteryBar](https://batterybarpro.com/): good-looking battery meter capable of displaying calibrated runtime estimates. Can be floating or (if you use something like ExplorerPatcher) pinned as a toolbar to the standard taskbar.
-    * [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
-    * [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
 
 * [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable. 
 
@@ -96,6 +88,14 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Put Windows always on top (or roll them up, close, minimize, ...) by pressing Alt and middle-clicking.
 
+* Alternative battery widgets
+  
+  - [BatteryBar](https://batterybarpro.com/): good-looking battery meter capable of displaying calibrated runtime estimates. Can be floating or (if you use something like ExplorerPatcher) pinned as a toolbar to the standard taskbar.
+  - [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
+  - [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
+
+* [MiniBin](https://e-sushi.net/): open and empty the recycle bin from the system tray. Themeable.
+
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu
 
 * [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
@@ -103,9 +103,10 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 ## Icons and other art
 
 * [deviantart](https://www.deviantart.com/): So much to see here! Some of my favorites include (but are not limited to)...
-    * anything by [Niivu](https://www.deviantart.com/niivu), especially his Windows themes
-    * the  `iconic creations' of [Octaviotti](https://www.deviantart.com/octaviotti)
-    * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): gorgeous filetype icons. 
+  
+  * anything by [Niivu](https://www.deviantart.com/niivu), especially his Windows themes
+  * the  `iconic creations' of [Octaviotti](https://www.deviantart.com/octaviotti)
+  * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): gorgeous filetype icons. 
 
 * [500px](https://500px.com): brilliant way to discover photos, many of which make excellent wallpapers.
 
@@ -134,5 +135,3 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., this very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-20#post-1687577). Forum registration required.
 
 * [elevenforum](https://www.elevenforum.com/): Another venue for community discussions of Windows customization.  See also [tenforums](https://www.tenforums.com/). The tutorials ([Windows 10](https://www.tenforums.com/tutorials/1977-windows-10-tutorial-index.html), [Windows 11](https://www.tenforums.com/tutorials/1977-windows-10-tutorial-index.html)) are particularly valuable.
-
-
