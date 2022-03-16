@@ -68,7 +68,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Everything](https://www.voidtools.com/) and [EverythingToolbar](https://github.com/stnkl/EverythingToolbar): Instant search by filename. I have had strange seeming search results with Fluent Search as it comes out of the box; Everything, without trying to be as clever, often gets me directly where I want to go, and it can be configured as the Fluent Search indexing engine. EverythingToolbar seamlessly integrates Everything into the Windows taskbar.
 
-* [TeraCopy](https://www.codesector.com/teracopy): replacement handler for copy/paste operations in Windows. Better queueing, logging, and verification features than native. Also prompts you to choose which handler to use for any copy move operation, which I find useful for preventing unintentional transfers, especially on touchscreen devices! (But if all you want is a confirmation dialogue when doing moves via drag and drop, try [DragDropConfirm](https://github.com/broken-e/DragDropConfirm).) 
+* [DragDropConfirm](https://github.com/broken-e/DragDropConfirm): Adds a confirm dialogue when dragging/dropping to move files in Explorer. Useful for those with touchscreen devices and careless fingers.
 
 * [Winaero Tweaker](https://winaero.com/winaero-tweaker/): adjust many (!) "secret" Windows settings. For example, you can modify which folders show up under This PC, and you change the Quick Access icon in the navigation pane (though for me this always results in a duplicate navigation pane icon; seems better to avoid WinAeroTweaker for this and just directly edit the registry key `HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\DefaultIcon`).
 
@@ -96,7 +96,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [MiniBin](https://e-sushi.net/): open and empty the recycle bin from the system tray. Themeable.
 
-* [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu
+* [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu.
 
 * [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
 
