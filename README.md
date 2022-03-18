@@ -96,7 +96,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [MiniBin](https://e-sushi.net/): open and empty the recycle bin from the system tray. Themeable.
 
-* [SuperF4](https://stefansundin.github.io/superf4/): when Alt-F4 isn't good enough. Forcefully kill foreground apps with Ctrl-Alt-F4. Cute Bowser program icon too.
+* [SuperF4](https://stefansundin.github.io/superf4/): when Alt-F4 isn't good enough. Forcefully kill foreground apps with Ctrl-Alt-F4. Endorsed by Bowser.
 
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu.
 
