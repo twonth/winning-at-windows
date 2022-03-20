@@ -123,7 +123,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons). 
 
-* I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), or those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini) and [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS).
+* I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), or those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2) and [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS).
 
 ## Hacks
 
