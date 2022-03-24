@@ -36,7 +36,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!). 
 
-* [Stylus](https://github.com/openstyles/stylus). Not a Windows app, but still deserving of mention. Allows you to customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use scripts from the competing, sketchier extension Stylish.) I use this to force dark mode on Duolingo and Wikipedia.
+* [Stylus](https://github.com/openstyles/stylus). Not a Windows app, but still deserving of mention. A browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use scripts from the competing, sketchier extension Stylish.) I use this to force dark mode on Duolingo and Wikipedia.
 
 ## System maintenance and optimization
 
