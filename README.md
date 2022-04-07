@@ -36,7 +36,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!). 
 
-* [Stylus](https://github.com/openstyles/stylus). Not a Windows app, but still deserving of mention. A browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use scripts from the competing, sketchier extension Stylish.) I use this to force dark mode on Duolingo and Wikipedia.
+* [Stylus](https://github.com/openstyles/stylus). Not a Windows app, but still deserving of mention. A browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Wikipedia.
 
 ## System maintenance and optimization
 
@@ -48,7 +48,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 <!-- * [Nativefier](https://github.com/nativefier/nativefier): Wrapper to turn webapps into standalone applications. -->
 
-* [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns): comprehensive startup process manager.
+* [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns): comprehensive startup process manager./
 
 * [WizTree](https://diskanalyzer.com/): shows, visually, which files are taking up space on your drive.  Very fast on NTFS-formatted drives. A (paid) alternative with a nicer UI is [FolderSizes](https://www.foldersizes.com/).
 
@@ -124,8 +124,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * those who appreciate the Windows 10/11 icon design language will want to check out the [Fluency collection](https://icons8.com/icons/fluency) at [icons8](https://icons8.com). See also [this repository](https://github.com/icon11-community/Folder11) for folder icons.
 
 * there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons). 
-
-* I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), or those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2) and [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS).
+  
+  * I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), or those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2) and [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS). For WiiU, see Taurosa's icons [here](https://www.deviantart.com/taurosa/art/Basic-WiiU-Icon-326889848) and [here](https://www.deviantart.com/taurosa/art/Deluxe-WiiU-Icon-326889969).  
 
 ## Windows settings and Hacks
 
@@ -136,6 +136,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * One can change the Windows 11 Settings app icon by replacing files in `C:\Windows\ImmersiveControlPanel\images`. To change the taskbar icon, relace the `logo.targetsize*` pngs with images of the same size. 
 
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
+
+* 
 
 * Configure Stardock TouchTasks to open Task View. In Windows 10, swiping from the left edge opened the task view panel. In Windows 11, this action has been remapped to the widgets panel (boo!). While I don't know how to get the old swipe gesture back, one can at least map the task view panel to a tap on the middle left edge. First, [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.). Then install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and create a shortcut to `C:\nircmd-x64\nircmd.exe sendkeypress lwin+tab` (replacing the location of nircmd appropriately). Then use TouchTasks to assign the shortcut link to a touchpoint. By default, TouchTasks looks for .exe files, but if you first enter *.lnk in the file dialogue and **then** select your shorcut, it gets properly assigned.
 
