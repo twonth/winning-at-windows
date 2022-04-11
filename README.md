@@ -1,4 +1,4 @@
-# winning-at-windows
+# ![trophy](images\trophy-small.png) winning-at-windows 
 
 Windows 11 software and tweaks that *I* find useful. The list is (intentionally) personal and is not meant to be a comprehensive database of all programs of this kind. While the software mentioned below has proven useful to me, not all carbon-based life forms  share the same workflow or tastes. Consider yourself warned.
 
@@ -46,9 +46,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Chocolatey](https://chocolatey.org/): package manager for Windows, through powershell.
 
-<!-- * [Nativefier](https://github.com/nativefier/nativefier): Wrapper to turn webapps into standalone applications. -->
-
-* [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns): comprehensive startup process manager./
+* [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns): comprehensive startup process manager.
 
 * [WizTree](https://diskanalyzer.com/): shows, visually, which files are taking up space on your drive.  Very fast on NTFS-formatted drives. A (paid) alternative with a nicer UI is [FolderSizes](https://www.foldersizes.com/).
 
@@ -142,3 +140,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., this very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-20#post-1687577). Forum registration required.
 
 * [elevenforum](https://www.elevenforum.com/): Another venue for community discussions of Windows customization.  See also [tenforums](https://www.tenforums.com/). The tutorials ([Windows 10](https://www.tenforums.com/tutorials/1977-windows-10-tutorial-index.html), [Windows 11](https://www.elevenforum.com/tutorials/)) are particularly valuable.
+
+***
+
+[Trophy icon created by Freepik - Flaticon](https://www.flaticon.com/free-icons/trophy)
