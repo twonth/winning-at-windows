@@ -78,7 +78,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable. 
 
-* [Pantherbar](https://pantherbar-app.com/): Whenever you select text, pops up a menu with possible ``quick actions'' (such as copy, cut, search in Google, run through Google Translate).
+* [SnipDo](https://snipdo-app.com/): Formerly known as PantherBar. Whenever you select text, pops up a menu with possible ``quick actions'' (such as copy, cut, search in Google, run through Google Translate). 
 
 * [Snipaste](https://www.snipaste.com/): full-featured and customizable screen snipping tool. Can auto-detect certain portions of the screen that are natural candidates for capture.
 
@@ -87,6 +87,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [Ditto](https://ditto-cp.sourceforge.io/): good looking clipboard manager for Windows.
 
 * [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Put Windows always on top (or roll them up, close, minimize, ...) by pressing Alt and middle-clicking.
+
+* [ShareDrop](https://www.sharedrop.io/): Easy between-device file sharing over your network. 
 
 * Alternative battery widgets
   
