@@ -100,6 +100,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [SuperF4](https://stefansundin.github.io/superf4/): when Alt-F4 isn't good enough. Forcefully kill foreground apps with Ctrl-Alt-F4. Endorsed by Bowser.
 
+* [File Unlocker](https://github.com/marianpekar/file-unlocker-for-windows): Easily find and kill processes that are locking a file or folder.
+
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu.
 
 * [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
@@ -138,6 +140,10 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
 
 * Configure Stardock TouchTasks to open Task View. In Windows 10, swiping from the left edge opened the task view panel. In Windows 11, this action has been remapped to the widgets panel (boo!). While I don't know how to get the old swipe gesture back, one can at least map the task view panel to a tap on the middle left edge. First, [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.). Then install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and create a shortcut to `C:\nircmd-x64\nircmd.exe sendkeypress lwin+tab` (replacing the location of nircmd appropriately). Then use TouchTasks to assign the shortcut link to a touchpoint. By default, TouchTasks looks for .exe files, but if you first enter *.lnk in the file dialogue and **then** select your shorcut, it gets properly assigned.
+
+## Other resources
+
+* [Scott Hanselman's list of tools for power users](http://hanselman.com/tools)
 
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., this very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-20#post-1687577). Forum registration required.
 
