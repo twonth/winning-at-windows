@@ -60,7 +60,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Mp3tag](https://www.mp3tag.de/en/): easily edit audio files' metadata. Useful when you notice that only half of an album's MP3s are displaying the correct cover art.
 
-* [Veeam Agent](https://www.veeam.com/windows-endpoint-server-backup-free.html): painless and brainless incremental backups of your entire system. And free!
+* [Veeam Agent](https://www.veeam.com/windows-endpoint-server-backup-free.html): totally painless way to manage incremental backups of your entire system. Free!
 
 ## Usability/Quality of life enhancements
 
