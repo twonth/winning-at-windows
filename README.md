@@ -121,6 +121,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [wallhaven](https://wallhaven.cc): large database of wallpapers.
 
+* Google photo albums of all [Windows wallpapers](https://photos.app.goo.gl/7xH7UuhLAjLZdtrs5) and [Windows beta wallpapers](https://photos.app.goo.gl/r8BMfQhc3vDW8Ehq5), all [MacOS wallpapers](https://goo.gl/photos/HjY1hmo6p3jfFz8a7), and all [iOS wallpapers](https://goo.gl/photos/ZVpabTtcezd35XBa9).
+
 * [IconArchive](https://iconarchive.com/): Remarkably extensive collection of icons. Plug in a keyword and look for something in a style that suits you.
 
 * [macOSicons](https://macosicons.com) has a MacOS-style icon for almost everything.
