@@ -112,7 +112,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [deviantart](https://www.deviantart.com/): So much to see here! Some of my favorites include (but are not limited to)...
   
-  * anything by [Niivu](https://www.deviantart.com/niivu), especially his Windows themes
+  * anything by [Niivu](https://www.deviantart.com/niivu), especially [his Windows themes (now on github!)](https://github.com/niivu/Windows-11-themes)
   * the  `iconic creations' of [Octaviotti](https://www.deviantart.com/octaviotti)
   * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): gorgeous filetype icons
   * the cursor icon themes by vladsukhetskyi, such as [VS Cursor 11.0 Premium](https://www.deviantart.com/vladsukhetskyi/art/VS-Cursor-11-0-Premium-900146070) 
