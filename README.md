@@ -42,7 +42,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version.
 
-* [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The nightly versions have dark mode support.
+* [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The [nightly versions](https://processhacker.sourceforge.io/nightly.php) have dark mode support.
 
 * [Chocolatey](https://chocolatey.org/): package manager for Windows, through powershell.
 
@@ -116,6 +116,10 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
   * the  `iconic creations' of [Octaviotti](https://www.deviantart.com/octaviotti)
   * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): gorgeous filetype icons
   * the cursor icon themes by vladsukhetskyi, such as [VS Cursor 11.0 Premium](https://www.deviantart.com/vladsukhetskyi/art/VS-Cursor-11-0-Premium-900146070) 
+
+* [dpcdpc11](https://dpcdpc11.gumroad.com/) over on [gumroad](https://gumroad.com/) creates nice themes, wallpapers, and cursor sets
+
+* searching [dribbble](https://dribbble.com/) for "[icon replacement](https://dribbble.com/search/icon-replacement)" turns up a number of gorgeous icon designs, though almost none are ready-to-use. (One solution: Take a screenshot and grab the actual icon using the "select subject" tool in Photoshop. Alternatvely, one can run the screenshot through [remove.bg](https://remove.bg).) A favorite artist of mine is [Sandor](https://dribbble.com/sandor).
 
 * [500px](https://500px.com): brilliant way to discover photos, many of which make excellent wallpapers.
 
