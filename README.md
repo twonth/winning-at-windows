@@ -20,7 +20,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc.
 
-* [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations.
+* [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/). The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
 * [CustomizerGod](https://www.door2windows.com/customizergod/): User-friendly way to replace certain Windows system icons. Was never updated for Windows 11 (or even later builds of Windows 10), so handle with care.
 
@@ -30,7 +30,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Rainmeter](https://www.rainmeter.net/): tool for displaying desktop widgets. An endless number of Rainmeter skins are on deviantArt (but beware that many, especially ones that are older, do not play nice with modern high DPI displays). If you use a tablet or frequently change screen resolutions for any other reason, grab [RainRez](https://forum.rainmeter.net/viewtopic.php?f=18&t=10471&hilit=rainrez) as well. 
 
-* [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS).
+* [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS). Even better when used with [Yaron's System Monitor](https://github.com/Yaron2334/SystemMonitor/) app (interfaces with [HWiNFO](https://www.hwinfo.com/)).
 
 * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most popular (deservedly) skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
@@ -38,8 +38,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Stylus](https://github.com/openstyles/stylus). Not a Windows app, but still deserving of mention. A browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Wikipedia.
 
-## System maintenance and optimization
 
+## System maintenance and optimization
 * [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version.
 
 * [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The [nightly versions](https://processhacker.sourceforge.io/nightly.php) have dark mode support.
@@ -90,7 +90,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Put Windows always on top (or roll them up, close, minimize, ...) by pressing Alt and middle-clicking.
 
-* [ShareDrop](https://www.sharedrop.io/): Easy between-device file sharing over your network. 
+* [ShareDrop](https://www.sharedrop.io/): Easy between-device file sharing, even between devices on different networks.
 
 * Alternative battery widgets
   
