@@ -14,6 +14,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * for animated wallpapers, check out [Wallpaper Engine](https://www.wallpaperengine.io/en) or (an open source alternative) [Lively Wallpaper](https://rocksdanister.github.io/lively/)
 
+* [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone): Apply the Windows 11 Mica transparency effect to win32 apps. Does wonders for Explorer.
+
 * [RoundedTB](https://github.com/torchgm/RoundedTB): Add margins and/or rounded corners to the taskbar.
 
 * [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Easily customize Windows accent colors. Useful for tweaking the titlebar appearance, for instance. 
