@@ -8,7 +8,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/) and [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu).
 
-* [MyDockFinder](https://store.steampowered.com/app/1787090/MyDockFinder/): Mac-like dock and Finder bar. 
+* [MyDockFinder](https://store.steampowered.com/app/1787090/MyDockFinder/): Mac-like dock and Finder bar. Pro-tip: To get a weather status icon on the finder bar, also set up [Tray Weather](https://github.com/FelixdelasPozas/TrayWeather).
 
 * [WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop): wallpaper that changes with the time of day, a la MacOS.
 
