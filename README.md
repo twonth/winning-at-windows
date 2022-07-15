@@ -121,7 +121,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [mupdf](https://mupdf.com/): hyperminimal PDF viewer. (No, really. More minimal than even  [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader).)
 
-* [AIMP](https://www.aimp.ru/):  ridiculously lightweight music player. Skinnable.
+* [xmplay](https://www.un4seen.com/):  ridiculously lightweight music player. Skinnable. But could use better high dpi support... See also [AIMP](https://www.aimp.ru/).
 
 * [Ferdium](https://ferdium.org/): centralized portal for webapps. I use this to unite several different chat apps (Google Messages, Hangouts, Discord). The Facebook Messenger portal doesn't play nice with video calling, so I use [Caprine](https://sindresorhus.com/caprine/) for that.
 
