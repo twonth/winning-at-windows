@@ -111,7 +111,19 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu.
 
+* [Desktop Media](https://www.softpedia.com/get/Desktop-Enhancements/Other-Desktop-Enhancements/Desktop-Media.shtml): add icons for available drives to the Windows desktop.
+
 * [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
+
+## Apps for minimalists
+
+* [nomacs](https://nomacs.org/): image viewer that is simultaneously minimal and feature-rich. 
+
+* [mupdf](https://mupdf.com/): hyperminimal PDF viewer. (No, really. More minimal than even  [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader).)
+
+* [xmplay](https://www.un4seen.com/):  ridiculously lightweight music player. Skinnable. But could use better high dpi support...
+
+* [Ferdium](https://ferdium.org/): centralized portal for webapps. I use this to unite several different chat apps (Google Messages, Hangouts, Discord). The Facebook Messenger portal doesn't play nice with video calling, so I use [Caprine](https://sindresorhus.com/caprine/) for that.
 
 ## Icons and other art
 
