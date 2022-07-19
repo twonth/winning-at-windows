@@ -103,7 +103,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
   - [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
   - [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
 
-* [OnTopReplica](https://github.com/LorenzCK/OnTopReplica): generates a resizable, always on-top-replica of a window or window region. Useful for rolling your own PIP mode for programs without built-in-support (looking at you, [Stremio](https://www.stremio.com/)).
+* [OnTopReplica](https://github.com/LorenzCK/OnTopReplica): generates a resizable, always on-top-replica of a window or window region. Lets you roll your own PIP mode for programs lacking native support (looking at you, [Stremio](https://www.stremio.com/)).
 
 * [MiniBin](https://e-sushi.net/): open and empty the recycle bin from the system tray. Themeable.
 
@@ -140,7 +140,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [dpcdpc11](https://dpcdpc11.gumroad.com/) over on [gumroad](https://gumroad.com/) creates nice themes, wallpapers, and cursor sets
 
-* searching [dribbble](https://dribbble.com/) for "[icon replacement](https://dribbble.com/search/icon-replacement)" turns up a number of gorgeous icon designs, though almost none are ready-to-use. (One solution: Take a screenshot and grab the actual icon using the "select subject" tool in Photoshop. Alternatvely, one can run the screenshot through [remove.bg](https://remove.bg).) A favorite artist of mine is [Sandor](https://dribbble.com/sandor).
+* searching [dribbble](https://dribbble.com/) for "[icon replacement](https://dribbble.com/search/icon-replacement)" turns up a number of gorgeous icon designs, though almost none are ready-to-use. (One solution: Take a screenshot and grab the actual icon using the "select subject" tool in Photoshop. One gets somewhat more reliable results by instead running the screenshot through [remove.bg](https://remove.bg).) A favorite artist of mine is [Sandor](https://dribbble.com/sandor).
 
 * [500px](https://500px.com): brilliant way to discover photos, many of which make excellent wallpapers.
 
@@ -167,6 +167,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * One can change the Windows 11 Settings app icon by replacing files in `C:\Windows\ImmersiveControlPanel\images`. To change the taskbar icon, relace the `logo.targetsize*` pngs with images of the same size. 
 
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
+
+* Rebind built-in hotkeys. For example, I prefer Win-S to open Everything search vs. Windows' built-in search. For this, I set Everything to open with the obscure hotkey combination Ctrl-Alt-U. Then I run the one-line [AutoHotkey](https://www.autohotkey.com/) script `#S::SendInput ^!u`.
 
 * Configure Stardock TouchTasks to open Task View. In Windows 10, swiping from the left edge opened the task view panel. In Windows 11, this action has been remapped to the widgets panel (boo!). While I don't know how to get the old swipe gesture back, one can at least map the task view panel to a tap on the middle left edge. First, [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.). Then install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and create a shortcut to `C:\nircmd-x64\nircmd.exe sendkeypress lwin+tab` (replacing the location of nircmd appropriately). Then use TouchTasks to assign the shortcut link to a touchpoint. By default, TouchTasks looks for .exe files, but if you first enter *.lnk in the file dialogue and **then** select your shorcut, it gets properly assigned.
 
