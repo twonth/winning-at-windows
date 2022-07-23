@@ -70,6 +70,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Veeam Agent](https://www.veeam.com/windows-endpoint-server-backup-free.html): totally painless way to manage incremental backups of your entire system. Free!
 
+* [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/): fine-tune your CPU to balance power and performance. You can set up profiles to automatically switch power management options when toggling between being plugged in and running off battery.
+
 ## Usability/Quality of life enhancements
 
 * [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in as well as the taskbar weather widget.
@@ -97,8 +99,6 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [AltSnap](https://github.com/RamonUnch/AltSnap): Reposition Windows by pressing Alt and left-clicking, from anywhere (no need to grab a Window edge). Resize by pressing Alt and right-clicking. Put Windows always on top (or roll them up, close, minimize, ...) by pressing Alt and middle-clicking.
 
 * [ShareDrop](https://www.sharedrop.io/): Easy between-device file sharing, even between devices on different networks.
-
-* [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/): fine-tune your CPU to balance power and performance. You can set up profiles to automatically switch power management options when toggling between being plugged in and running off battery.
 
 * [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). 
 
