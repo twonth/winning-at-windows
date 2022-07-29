@@ -66,6 +66,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [FileOptimizer](https://nikkhokkho.sourceforge.io/static.php?page=FileOptimizer): Lossless file size reduction for many different file formats. Saved me about 0.87 GB when run on roughly 10 GB worth of PDFs (~ 600 files).
 
+* [czkawka](https://github.com/qarmin/czkawka): comprehensive tool for finding unnecessary files (empty files and directories, duplicate music/videos/images, etc.). Useful for bringing in after the "usual suspects" have been obliterated with a surface-level cleaner such as [BleachBit](https://www.bleachbit.org/).
+
 * [Mp3tag](https://www.mp3tag.de/en/): easily edit audio files' metadata. Useful when you notice that only half of an album's MP3s are displaying the correct cover art.
 
 * [Veeam Agent](https://www.veeam.com/windows-endpoint-server-backup-free.html): totally painless way to manage incremental backups of your entire system. Free!
@@ -74,9 +76,11 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 ## Usability/Quality of life enhancements
 
-* [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in as well as the taskbar weather widget.
+* [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Microsoft's own collection of quality-of-life enhancements for Windows. Favorites of mine are Always on Top, Awake, Color Picker, FancyZones. I use Fluent Search (below) in place of PowerToys Run, and [XnShell](https://www.xnview.com/en/xnshell/) instead of Image Resizer.
 
 * [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver.
+
+* [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in as well as the taskbar weather widget.
 
 * [Everything](https://www.voidtools.com/) and [EverythingToolbar](https://github.com/stnkl/EverythingToolbar): Instant search by filename. I have had strange seeming search results with Fluent Search as it comes out of the box; Everything, without trying to be as clever, often gets me directly where I want to go, and it can be configured as the Fluent Search indexing engine. EverythingToolbar seamlessly integrates Everything into the Windows taskbar.
 
@@ -128,7 +132,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [nomacs](https://nomacs.org/): image viewer that is simultaneously minimal and feature-rich. 
 
-* [mupdf](https://mupdf.com/): hyperminimal PDF viewer. (No, really. More minimal than even  [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader).)
+* [mupdf](https://mupdf.com/): hyperminimal PDF viewer. (No, really. More minimal than even  [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader).) Also check out [Sioyek](http://sioyek.info/) if you don't need touchscreen scrolling or zooming.
 
 * [xmplay](https://www.un4seen.com/):  ridiculously lightweight music player. Skinnable. But could use better high dpi support... See also [AIMP](https://www.aimp.ru/).
 
