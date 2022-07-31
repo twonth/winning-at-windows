@@ -42,7 +42,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [No!! Meiryo UI](https://github.com/Tatsu-syo/noMeiryoUI):  Change Windows system fonts. Allows more fine-grained control than (say) WinAeroTweaker. 
 
-* [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know of to modify the startup chime. (Even modifying imageres.dll.mun didn't work for me.) This app has solves that problem (sure, it's a hack, but it works).
+* [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know to set a custom startup chime on Windows 11. (Even modifying imageres.dll.mun didn't work for me.) 
 
 * Edge (Chromium) extensions:
      * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Wikipedia.
@@ -127,6 +127,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu.
 
 * [Desktop Media](https://www.softpedia.com/get/Desktop-Enhancements/Other-Desktop-Enhancements/Desktop-Media.shtml): add icons for available drives to the Windows desktop.
+
+* [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., the modern, Fluent, dark-mode supporting Notepad).
 
 * [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
 
