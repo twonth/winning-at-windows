@@ -42,6 +42,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [No!! Meiryo UI](https://github.com/Tatsu-syo/noMeiryoUI):  Change Windows system fonts. Allows more fine-grained control than (say) WinAeroTweaker. 
 
+* [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know of to modify the startup chime. (Even modifying imageres.dll.mun didn't work for me.) This app has solves that problem (sure, it's a hack, but it works).
+
 * Edge (Chromium) extensions:
      * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Wikipedia.
      * [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd): More userscript goodness. I use [this script](https://greasyfork.org/en/scripts/390566-pwa-dark-titlebar) to force dark titlebarss on PWAs but [all things are possible](https://greasyfork.org/en) for those who believe.
