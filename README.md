@@ -1,10 +1,10 @@
-# ![trophy](./images/trophy-small.png "trophy") winning-at-windows 
+# ![trophy](./images/trophy-small.png "trophy") winning-at-windows
 
 Windows 11 software and tweaks that *I* find useful. The list is (intentionally) personal and is not meant to be a comprehensive database of all programs of this kind. While the software mentioned below has proven useful to me, not all carbon-based life forms  share the same workflow or tastes. Consider yourself warned.
 
 ## "Ricing" (appearance customization)
 
-* [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as [IconPackager](https://www.stardock.com/products/iconpackager/) (replaces the most common system icons), [WindowFX](https://www.stardock.com/products/windowfx/) (adds effects when opening, closing, minimizing, moving windows), [TouchTasks](https://www.stardock.com/products/touchtasks/) (triggers actions by touching certain screen corners), and [Start11](https://www.stardock.com/products/start11/) (alternative start menu layouts). 
+* [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as [IconPackager](https://www.stardock.com/products/iconpackager/) (replaces the most common system icons), [WindowFX](https://www.stardock.com/products/windowfx/) (adds effects when opening, closing, minimizing, moving windows), [TouchTasks](https://www.stardock.com/products/touchtasks/) (triggers actions by touching certain screen corners), and [Start11](https://www.stardock.com/products/start11/) (alternative start menu layouts).
 
 * Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/) and [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu).
 
@@ -18,7 +18,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [RoundedTB](https://github.com/torchgm/RoundedTB): Add margins and/or rounded corners to the taskbar.
 
-* [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Easily customize Windows accent colors. Useful for tweaking the titlebar appearance, for instance. 
+* [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Easily customize Windows accent colors. Useful for tweaking the titlebar appearance, for instance.
 
 * [OldNewExplorer](https://m.majorgeeks.com/files/details/oldnewexplorer.html): Allows one to return to the good old days when cats were cats, dogs were dogs, and File Explorer was less ornate and cluttered.
 
@@ -30,26 +30,28 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Resource Hacker](http://www.angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons. To gain permissions to customize icons built in to Windows, you will want to run Resource Hacker with something like [NSudo](https://github.com/M2Team/NSudo). Windows keeps many (but not all) of its icons in **\Windows\SystemResources\shell32.dll.mun** and **\Windows\SystemResources\imageres.dll.mun**.
 
-* [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!) 
+* [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!)
 
-* [Rainmeter](https://www.rainmeter.net/): tool for displaying desktop widgets. An endless number of Rainmeter skins are on deviantArt (but beware that many, especially ones that are older, do not play nice with modern high DPI displays). If you use a tablet or frequently change screen resolutions for any other reason, grab [RainRez](https://forum.rainmeter.net/viewtopic.php?f=18&t=10471&hilit=rainrez) as well. 
+* [Rainmeter](https://www.rainmeter.net/): tool for displaying desktop widgets. An endless number of Rainmeter skins are on deviantArt (but beware that many, especially ones that are older, do not play nice with modern high DPI displays). If you use a tablet or frequently change screen resolutions for any other reason, grab [RainRez](https://forum.rainmeter.net/viewtopic.php?f=18&t=10471&hilit=rainrez) as well.
 
 * [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS). Even better when used with [Yaron's System Monitor](https://github.com/Yaron2334/SystemMonitor/) app (requires [HWiNFO](https://www.hwinfo.com/)).
 
-* [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/). 
+* [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
-* prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!). 
+* prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!).
 
-* [No!! Meiryo UI](https://github.com/Tatsu-syo/noMeiryoUI):  Change Windows system fonts. Allows more fine-grained control than (say) WinAeroTweaker. 
+* [No!! Meiryo UI](https://github.com/Tatsu-syo/noMeiryoUI):  Change Windows system fonts. Allows more fine-grained control than (say) WinAeroTweaker.
 
-* [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know to set a custom startup chime on Windows 11. (Even modifying imageres.dll.mun didn't work for me.) 
+* [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know to set a custom startup chime on Windows 11. (Even modifying imageres.dll.mun didn't work for me.)
 
 * Edge (Chromium) extensions:
-     * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Wikipedia.
-     * [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd): More userscript goodness. I use [this script](https://greasyfork.org/en/scripts/390566-pwa-dark-titlebar) to force dark titlebarss on PWAs but [all things are possible](https://greasyfork.org/en) for those who believe.
-     * [Bonjour startpage](https://bonjourr.fr/): Minimalist startpage: no more, no less. Puts you in that "I'm ready to take on the day with webbrowsing" mood.
+  * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Google Calendar.
+  * [Wikiwand](https://www.wikiwand.com/): Modernizes the Wikipedia UI; customizable.
+  * [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd): More userscript goodness. I use [this script](https://greasyfork.org/en/scripts/390566-pwa-dark-titlebar) to force dark titlebarss on PWAs but [all things are possible](https://greasyfork.org/en) for those who believe.
+  * [Bonjour startpage](https://bonjourr.fr/): Minimalist startpage: no more, no less. Puts you in that "I'm ready to take on the day with webbrowsing" mood.
 
 ## System maintenance and optimization
+
 * [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version.
 
 * [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The [nightly versions](https://processhacker.sourceforge.io/nightly.php) have dark mode support.
@@ -92,9 +94,9 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet): Replacement for the Windows system tray audio control widget. Much more functional, e.g., including per-app volume control.
 
-* [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable. 
+* [ExtractNow](https://www.extractnow.com/#/home): archive handler. Allows one to unzip/unrar/etc. by double clicking the archive. Quite customizable.
 
-* [SnipDo](https://snipdo-app.com/): Formerly known as PantherBar. Whenever you select text, pops up a menu with possible ``quick actions'' (such as copy, cut, search in Google, run through Google Translate). 
+* [SnipDo](https://snipdo-app.com/): Formerly known as PantherBar. Whenever you select text, pops up a menu with possible ``quick actions'' (such as copy, cut, search in Google, run through Google Translate).
 
 * [Snipaste](https://www.snipaste.com/): full-featured and customizable screen snipping tool. Can auto-detect certain portions of the screen that are natural candidates for capture.
 
@@ -106,13 +108,15 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [ShareDrop](https://www.sharedrop.io/): Easy between-device file sharing, even between devices on different networks.
 
-* [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level). 
+* [windows-terminal-quake](https://github.com/flyingpie/windows-terminal-quake): Quake mode for Windows Terminal.  Yes, Windows Terminal already has a built in Quake-mode, but the devs are still working out some kinks (see, e.g., [this issue](https://github.com/microsoft/terminal/issues/9996)). For now I prefer this.
+
+* [BatteryInfoView](https://www.nirsoft.net/utils/battery_information_view.html): Displays information on your battery (e.g., charging status/rate and wear level).
 
 * Alternative battery widgets
   
-  - [BatteryBar](https://batterybarpro.com/): good-looking battery meter capable of displaying calibrated runtime estimates. Can be floating or (if you use something like ExplorerPatcher) pinned as a toolbar to the standard taskbar.
-  - [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
-  - [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
+  * [BatteryBar](https://batterybarpro.com/): good-looking battery meter capable of displaying calibrated runtime estimates. Can be floating or (if you use something like ExplorerPatcher) pinned as a toolbar to the standard taskbar.
+  * [BatteryMode](https://github.com/tarcode-apps/BatteryMode): similar to the standard tray widget, but with built in functionality to change the power plan and with more customization options (e.g., the ability bring back the Windows 7 battery tray icon).
+  * [CircleBattery](http://rebelvalkyrie.com/?page=circle-battery): tray widget where remaining battery power is displayed in a glowing circular arc. A press in the middle prevents your computer from locking or going to sleep.
 
 * [OnTopReplica](https://github.com/LorenzCK/OnTopReplica): generates a resizable, always on-top-replica of a window or window region. Lets you roll your own PIP mode for programs lacking native support (looking at you, [Stremio](https://www.stremio.com/)).
 
@@ -134,7 +138,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 ## Apps for minimalists
 
-* [nomacs](https://nomacs.org/): image viewer that is simultaneously minimal and feature-rich. 
+* [nomacs](https://nomacs.org/): image viewer that is simultaneously minimal and feature-rich.
 
 * [mupdf](https://mupdf.com/): hyperminimal PDF viewer. (No, really. More minimal than even  [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader).) Also check out [Sioyek](http://sioyek.info/) if you don't need touchscreen scrolling or zooming.
 
@@ -149,7 +153,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
   * anything by [Niivu](https://www.deviantart.com/niivu), especially [his Windows themes (now on github!)](https://github.com/niivu/Windows-11-themes)
   * the  `iconic creations' of [Octaviotti](https://www.deviantart.com/octaviotti)
   * [Mnemo 'n' icons by hechiceroo on DeviantArt](https://www.deviantart.com/hechiceroo/art/Mnemo-n-icons-413224458): gorgeous filetype icons
-  * the cursor icon themes by vladsukhetskyi, such as [VS Cursor 11.0 Premium](https://www.deviantart.com/vladsukhetskyi/art/VS-Cursor-11-0-Premium-900146070) 
+  * the cursor icon themes by vladsukhetskyi, such as [VS Cursor 11.0 Premium](https://www.deviantart.com/vladsukhetskyi/art/VS-Cursor-11-0-Premium-900146070)
 
 * [atomcorp](https://github.com/atomcorp) has collected [many Windows Terminal themes](https://windowsterminalthemes.dev/) in an easy to navigate website
 
@@ -169,7 +173,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * those who appreciate the Windows 10/11 icon design language will want to check out the [Fluency collection](https://icons8.com/icons/fluency) at [icons8](https://icons8.com). See also [this repository](https://github.com/icon11-community/Folder11) for folder icons.
 
-* there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons). 
+* there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons).
 
 * I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2), [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS) and [JaffaCakeLover's Pixel Gaming Machine Icons](https://www.deviantart.com/jaffacakelover/art/Pixel-Gaming-Machine-Icons-413704203). For WiiU, see also Taurosa's icons [here](https://www.deviantart.com/taurosa/art/Basic-WiiU-Icon-326889848) and [here](https://www.deviantart.com/taurosa/art/Deluxe-WiiU-Icon-326889969).  
 
@@ -179,11 +183,11 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * Change taskbar icons of pinned UWP apps. One needs [Win7AppId1.1](https://code.google.com/archive/p/win7appid/downloads). Get the AppID of the desired app by running `get-StartApps | Format-Table | Out-String -width 9999` in PowerShell. Create a custom shortcut  to `explorer.exe shell:appsFolder\YOURAPPID`. Back in Powershell, run `Win7AppId1.1 "YourAppShortcut.lnk" "YOURAPPID"`. Change the icon of the shortcut to whatever you desire, then pin the icon to the taskbar. (Thanks to dpcdpc11 for making me aware of [this method](https://dpcdpc11.com/custom-taskbar-icons-guide/)!)
 
-* One can change the Windows 11 Settings app icon by replacing files in `C:\Windows\ImmersiveControlPanel\images`. To change the taskbar icon, relace the `logo.targetsize*` pngs with images of the same size. 
+* One can change the Windows 11 Settings app icon by replacing files in `C:\Windows\ImmersiveControlPanel\images`. To change the taskbar icon, relace the `logo.targetsize*` pngs with images of the same size.
 
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
 
-* Rebind built-in hotkeys. For example, I prefer Win-S to open Everything search vs. Windows' built-in search. For this, I set Everything to open with the obscure hotkey combination Ctrl-Alt-U. Then I run the one-line [AutoHotkey](https://www.autohotkey.com/) script `#S::SendInput ^!u`. 
+* Rebind built-in hotkeys. For example, I prefer Win-S to open Everything search vs. Windows' built-in search. For this, I set Everything to open with the obscure hotkey combination Ctrl-Alt-U. Then I run the one-line [AutoHotkey](https://www.autohotkey.com/) script `#S::SendInput ^!u`.
 
 * Configure Stardock TouchTasks to open Task View. In Windows 10, swiping from the left edge opened the task view panel. In Windows 11, this action has been remapped to the widgets panel (boo!). While I don't know how to get the old swipe gesture back, one can at least map the task view panel to a tap on the middle left edge. First, [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.). Then install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and create a shortcut to `C:\nircmd-x64\nircmd.exe sendkeypress lwin+tab` (replacing the location of nircmd appropriately). Then use TouchTasks to assign the shortcut link to a touchpoint. By default, TouchTasks looks for .exe files, but if you first enter *.lnk in the file dialogue and **then** select your shorcut, it gets properly assigned.
 
