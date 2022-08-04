@@ -24,7 +24,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc.
 
-* [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/). The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
+* [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/)/. The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
 * [CustomizerGod](https://www.door2windows.com/customizergod/): User-friendly way to replace certain Windows system icons. Was never updated for Windows 11 (or even later builds of Windows 10), so handle with care.
 
@@ -178,6 +178,23 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2), [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS) and [JaffaCakeLover's Pixel Gaming Machine Icons](https://www.deviantart.com/jaffacakelover/art/Pixel-Gaming-Machine-Icons-413704203). For WiiU, see also Taurosa's icons [here](https://www.deviantart.com/taurosa/art/Basic-WiiU-Icon-326889848) and [here](https://www.deviantart.com/taurosa/art/Deluxe-WiiU-Icon-326889969).  
 
 ## Windows settings and Hacks
+* Add items to the (classic) right-click context menu. Here is an example of adding a command to trim margins from PDF files, in a form ready to be saved as a reg file and imported via regedit.
+
+```
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell\Trim margins]
+"Icon"="\"C:\\Users\\anon\\Insync\\OneDrive\\Pictures\\Custom taskbar icons\\crop.ico\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell\Trim margins\command]
+@="C:\\Python310\\Scripts\\pdf-crop-margins.exe \"%1\""
+
+```
+
+To operate on files other than PDF, open the extension in [types](https://ystr.github.io/types/); "MuPDF" in the above should be replaced with whatever you see in the "Class" field. Of course, the above icon path and command names (both the name "Trim margins" and the actual command to be executed in the final line) also need to be tailored to your application. 
 
 * Disable UAC and open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0`
 
