@@ -134,6 +134,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., the modern, Fluent, dark-mode supporting Notepad).
 
+* [SmartTaskbar](https://github.com/ChanpleCai/SmartTaskbar): hide the taskbar only when it makes sense (when the focused window would overlap).
+
 * [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
 
 ## Apps for minimalists
