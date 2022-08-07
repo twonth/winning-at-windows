@@ -178,7 +178,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2), [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS) and [JaffaCakeLover's Pixel Gaming Machine Icons](https://www.deviantart.com/jaffacakelover/art/Pixel-Gaming-Machine-Icons-413704203). For WiiU, see also Taurosa's icons [here](https://www.deviantart.com/taurosa/art/Basic-WiiU-Icon-326889848) and [here](https://www.deviantart.com/taurosa/art/Deluxe-WiiU-Icon-326889969).  
 
 ## Windows settings and Hacks
-* Add items to the (classic) right-click context menu. Here is an example of adding a command to trim margins from PDF files, in a form ready to be saved as a reg file and imported via regedit.
+* Add items to the (classic) right-click context menu. Here is an example of adding a command to trim margins from PDF files (using [pdfCropMargins](https://github.com/abarker/pdfCropMargins)), in a form ready to be saved as a reg file and imported via regedit.
 
 ```
 
@@ -194,13 +194,15 @@ Windows Registry Editor Version 5.00
 
 ```
 
-To operate on files other than PDF, open the extension in [types](https://ystr.github.io/types/); "MuPDF" in the above should be replaced with whatever you see in the "Class" field. Of course, the above icon path and command names (both the name "Trim margins" and the actual command to be executed in the final line) also need to be tailored to your application. 
+To operate on files other than PDF, open the extension in [Types](https://ystr.github.io/types/); "MuPDF" in the above should be replaced with whatever you see in the "Class" field. Of course, the above icon path and command names (both the name "Trim margins" and the actual command to be executed in the final line) also need to be tailored to your application.
 
 * Disable UAC and open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0`
 
 * Change taskbar icons of pinned UWP apps. One needs [Win7AppId1.1](https://code.google.com/archive/p/win7appid/downloads). Get the AppID of the desired app by running `get-StartApps | Format-Table | Out-String -width 9999` in PowerShell. Create a custom shortcut  to `explorer.exe shell:appsFolder\YOURAPPID`. Back in Powershell, run `Win7AppId1.1 "YourAppShortcut.lnk" "YOURAPPID"`. Change the icon of the shortcut to whatever you desire, then pin the icon to the taskbar. (Thanks to dpcdpc11 for making me aware of [this method](https://dpcdpc11.com/custom-taskbar-icons-guide/)!)
 
 * One can change the Windows 11 Settings app icon by replacing files in `C:\Windows\ImmersiveControlPanel\images`. To change the taskbar icon, relace the `logo.targetsize*` pngs with images of the same size.
+
+* [Remove the time and date from the Windows taskbar.](https://www.thewindowsclub.com/hide-clock-and-date-from-taskbar-windows-10)
 
 * Refresh icon cache without restarting Windows. Run (Win+R): `cmd /c taskkill /f /im explorer.exe & del /a %userprofile%\AppData\Local\IconCache.db & start explorer`. You can also create a shortcut with this command as the target. (Taken from [this post](https://superuser.com/a/1300573).)
 
