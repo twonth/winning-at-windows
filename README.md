@@ -38,6 +38,8 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
+* Jax enjoys [pushing the limits of what one would think is possible with Rainmeter](https://jax-core.github.io/). For example, [YourFlyouts](https://www.deviantart.com/jaxoriginals/art/919259685) is a pretty great ModernFlyouts alternative.
+
 * prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!).
 
 * [No!! Meiryo UI](https://github.com/Tatsu-syo/noMeiryoUI):  Change Windows system fonts. Allows more fine-grained control than (say) WinAeroTweaker.
