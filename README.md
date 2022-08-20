@@ -2,6 +2,8 @@
 
 Windows 11 software and tweaks that *I* find useful. The list is (intentionally) personal and is not meant to be a comprehensive database of all programs of this kind. While the software mentioned below has proven useful to me, not all carbon-based life forms  share the same workflow or tastes. Consider yourself warned.
 
+Software previously listed that I have taken out of rotation is [here](deprecated.md).
+
 ## "Ricing" (appearance customization)
 
 * [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as [IconPackager](https://www.stardock.com/products/iconpackager/) (replaces the most common system icons), [WindowFX](https://www.stardock.com/products/windowfx/) (adds effects when opening, closing, minimizing, moving windows), [TouchTasks](https://www.stardock.com/products/touchtasks/) (triggers actions by touching certain screen corners), and [Start11](https://www.stardock.com/products/start11/) (alternative start menu layouts).
@@ -26,19 +28,20 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/)/. The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
-* [CustomizerGod](https://www.door2windows.com/customizergod/): User-friendly way to replace certain Windows system icons. Was never updated for Windows 11 (or even later builds of Windows 10), so handle with care.
 
 * [Resource Hacker](http://www.angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons. To gain permissions to customize icons built in to Windows, you will want to run Resource Hacker with something like [NSudo](https://github.com/M2Team/NSudo). Windows keeps many (but not all) of its icons in **\Windows\SystemResources\shell32.dll.mun** and **\Windows\SystemResources\imageres.dll.mun**.
+
+  * Sample usage: On Windows 11, IconPackager does not change the icon  for nonempty folders. For this, one should replace Icon Group 162 in imageres.dll.mun.
 
 * [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!)
 
 * [Rainmeter](https://www.rainmeter.net/): tool for displaying desktop widgets. An endless number of Rainmeter skins are on deviantArt (but beware that many, especially ones that are older, do not play nice with modern high DPI displays). If you use a tablet or frequently change screen resolutions for any other reason, grab [RainRez](https://forum.rainmeter.net/viewtopic.php?f=18&t=10471&hilit=rainrez) as well.
 
-* [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS). Even better when used with [Yaron's System Monitor](https://github.com/Yaron2334/SystemMonitor/) app (requires [HWiNFO](https://www.hwinfo.com/)).
+  * [Droptop](https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS). Even better when used with [Yaron's System Monitor](https://github.com/Yaron2334/SystemMonitor/) app (requires [HWiNFO](https://www.hwinfo.com/)).
 
-* [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
+  * [Omnimo](https://omnimo.info/) and [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064): two of the most (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/).
 
-* Jax enjoys [pushing the limits of what one would think is possible with Rainmeter](https://jax-core.github.io/). For example, [YourFlyouts](https://www.deviantart.com/jaxoriginals/art/919259685) is a pretty great ModernFlyouts alternative.
+  * Jax enjoys [pushing the limits of what one would think is possible with Rainmeter](https://jax-core.github.io/). For example, [YourFlyouts](https://www.deviantart.com/jaxoriginals/art/919259685) is a pretty great ModernFlyouts alternative.
 
 * prettify Explorer by adding thumbnail previews for more filetypes: for many common filetypes, see the links under "image thumbnails" [here](https://www.zabkat.com/x2plugins.htm). Also: [DJVU](https://www.cuminas.jp/en/downloads), [SVG](https://github.com/EtheaDev/SVGShellExtensions). For PDF, one can use the shell extension built into [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader) (worth having around for many other reasons!).
 
@@ -49,7 +52,7 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 * Edge (Chromium) extensions:
   * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Google Calendar.
   * [Wikiwand](https://www.wikiwand.com/): Modernizes the Wikipedia UI; customizable.
-  * [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd): More userscript goodness. I use [this script](https://greasyfork.org/en/scripts/390566-pwa-dark-titlebar) to force dark titlebarss on PWAs but [all things are possible](https://greasyfork.org/en) for those who believe.
+  * [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd): More userscript goodness. I use [this script](https://greasyfork.org/en/scripts/390566-pwa-dark-titlebar) to force dark titlebars on PWAs but [all things are possible](https://greasyfork.org/en) for those who believe.
   * [Bonjour startpage](https://bonjourr.fr/): Minimalist startpage: no more, no less. Puts you in that "I'm ready to take on the day with webbrowsing" mood.
 
 ## System maintenance and optimization
@@ -136,19 +139,11 @@ Windows 11 software and tweaks that *I* find useful. The list is (intentionally)
 
 * [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., the modern, Fluent, dark-mode supporting Notepad).
 
-* [SmartTaskbar](https://github.com/ChanpleCai/SmartTaskbar): hide the taskbar only when it makes sense (when the focused window would overlap).
-
-* [TaskbarControl](https://www.thefreewindows.com/3252/hide-completely-the-windows-taskbar-using-a-hotkey-and-unhide-it-with-taskbar-control/): assign a hotkey to toggle autohiding  the taskbar. Useful for touchscreen devices in combination with Stardock's TouchTasks.
-
 ## Apps for minimalists
 
 * [nomacs](https://nomacs.org/): image viewer that is simultaneously minimal and feature-rich.
 
 * [mupdf](https://mupdf.com/): hyperminimal PDF viewer. (No, really. More minimal than even  [Sumatra](https://www.sumatrapdfreader.org/free-pdf-reader).) Also check out [Sioyek](http://sioyek.info/) if you don't need touchscreen scrolling or zooming.
-
-* [xmplay](https://www.un4seen.com/):  ridiculously lightweight music player. Skinnable. But could use better high dpi support... See also [AIMP](https://www.aimp.ru/).
-
-* [Ferdium](https://ferdium.org/): centralized portal for webapps. I use this to unite several different chat apps (Google Messages, Hangouts, Discord). The Facebook Messenger portal doesn't play nice with video calling, so I use [Caprine](https://sindresorhus.com/caprine/) for that.
 
 ## Icons and other art
 
@@ -224,4 +219,4 @@ To operate on files other than PDF, open the extension in [Types](https://ystr.g
 
 ***
 
-[Trophy icon created by Freepik - Flaticon](https://www.flaticon.com/free-icons/trophy)
+<a href="https://www.flaticon.com/free-icons/trophy" title="trophy icons">Trophy icon created by Freepik - Flaticon</a>
