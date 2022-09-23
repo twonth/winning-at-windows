@@ -28,10 +28,10 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/)/. The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
-
 * [Resource Hacker](http://www.angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons. To gain permissions to customize icons built in to Windows, you will want to run Resource Hacker with something like [NSudo](https://github.com/M2Team/NSudo). Windows keeps many (but not all) of its icons in **\Windows\SystemResources\shell32.dll.mun** and **\Windows\SystemResources\imageres.dll.mun**.
 
-  * Sample usage: On Windows 11, IconPackager does not change the icon  for nonempty folders. For this, one should replace Icon Group 162 in imageres.dll.mun.
+  * Sample usage: On Windows 11, IconPackager does not change the icon for nonempty folders. For this, one should replace Icon Group 162 in imageres.dll.mun.
+  * On Win11 22H2, to disable folder thumbnail previews, overwrite Icon Group 6 in imageres.dll.mun with your generic folder icon. To change the Home icon in the File Explorer sidebar, overwrite Icon Group 51380.
 
 * [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!)
 
@@ -49,10 +49,11 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know to set a custom startup chime on Windows 11. (Even modifying imageres.dll.mun didn't work for me.)
 
-* Edge (Chromium) extensions:
-  * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) I use this to force dark mode on Duolingo and Google Calendar.
+* Firefox extensions:
+  * [Edge-style vertical tabs](https://github.com/ranmaru22/firefox-vertical-tabs) for Firefox
+  * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) 
   * [Wikiwand](https://www.wikiwand.com/): Modernizes the Wikipedia UI; customizable.
-  * [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd): More userscript goodness. I use [this script](https://greasyfork.org/en/scripts/390566-pwa-dark-titlebar) to force dark titlebars on PWAs but [all things are possible](https://greasyfork.org/en) for those who believe.
+  * [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): More userscript goodness. 
   * [Bonjour startpage](https://bonjourr.fr/): Minimalist startpage: no more, no less. Puts you in that "I'm ready to take on the day with webbrowsing" mood.
 
 ## System maintenance and optimization
