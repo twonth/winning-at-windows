@@ -31,7 +31,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 * [Resource Hacker](http://www.angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons. To gain permissions to customize icons built in to Windows, you will want to run Resource Hacker with something like [NSudo](https://github.com/M2Team/NSudo). Windows keeps many (but not all) of its icons in **\Windows\SystemResources\shell32.dll.mun** and **\Windows\SystemResources\imageres.dll.mun**.
 
   * Sample usage: On Windows 11, IconPackager does not change the icon for nonempty folders. For this, one should replace Icon Group 162 in imageres.dll.mun.
-  * On Win11 22H2, to disable folder thumbnail previews, overwrite Icon Group 6 in imageres.dll.mun with your generic folder icon. To change the Home icon in the File Explorer sidebar, overwrite Icon Group 51380.
+  * On Win11 22H2, to disable folder thumbnail previews, overwrite Icon Group 6 in imageres.dll.mun with your generic folder icon. To change the Home icon in the File Explorer sidebar, overwrite Icon Group 51380 in shell32.dll.mun.
 
 * [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!)
 
@@ -138,7 +138,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [Desktop Media](https://www.softpedia.com/get/Desktop-Enhancements/Other-Desktop-Enhancements/Desktop-Media.shtml): add icons for available drives to the Windows desktop.
 
-* [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., the modern, Fluent, dark-mode supporting Notepad).
+* [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., Notepad++).
 
 ## Apps for minimalists
 
@@ -208,7 +208,7 @@ To operate on files other than PDF, open the extension in [Types](https://ystr.g
 
 * Rebind built-in hotkeys. For example, I prefer Win-S to open Everything search vs. Windows' built-in search. For this, I set Everything to open with the obscure hotkey combination Ctrl-Alt-U. Then I run the one-line [AutoHotkey](https://www.autohotkey.com/) script `#S::SendInput ^!u`.
 
-* Configure Stardock TouchTasks to open Task View. In Windows 10, swiping from the left edge opened the task view panel. In Windows 11, this action has been remapped to the widgets panel (boo!). While I don't know how to get the old swipe gesture back, one can at least map the task view panel to a tap on the middle left edge. First, [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.). Then install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and create a shortcut to `C:\nircmd-x64\nircmd.exe sendkeypress lwin+tab` (replacing the location of nircmd appropriately). Then use TouchTasks to assign the shortcut link to a touchpoint. By default, TouchTasks looks for .exe files, but if you first enter *.lnk in the file dialogue and **then** select your shorcut, it gets properly assigned.
+* Windows 11's implementation of widgets doesn't allow you to hide the news feed. One can at least [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.) entirely. 
 
 ## Other resources
 
