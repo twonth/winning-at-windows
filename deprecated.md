@@ -12,6 +12,9 @@
 
 * [Ferdium](https://ferdium.org/): centralized portal for webapps. I use this to unite several different chat apps (Google Messages, Hangouts, Discord). The Facebook Messenger portal doesn't play nice with video calling, so I use [Caprine](https://sindresorhus.com/caprine/) for that. **Replaced in my workflow by [Beeper](https://www.beeper.com/).**
 
+* [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone): Apply the Windows 11 Mica transparency effect to win32 apps. Does wonders for Explorer. **Replaced by [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica).**
+
+
 
 ***
 <a href="https://www.flaticon.com/free-icons/close" title="close icons">Cancel icon created by Freepik - Flaticon</a>

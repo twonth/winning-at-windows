@@ -16,7 +16,9 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * for animated wallpapers, check out [Wallpaper Engine](https://www.wallpaperengine.io/en) or (an open source alternative) [Lively Wallpaper](https://rocksdanister.github.io/lively/)
 
-* [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone): Apply the Windows 11 Mica transparency effect to win32 apps. Does wonders for Explorer.
+* [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica): Adds a background blur effect to Explorer windows.
+
+* [TranslucentFlyouts](https://github.com/ALTaleX531/TranslucentFlyouts): Adds a background blur effect to context menus.
 
 * [RoundedTB](https://github.com/torchgm/RoundedTB): Add margins and/or rounded corners to the taskbar.
 
