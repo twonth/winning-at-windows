@@ -24,9 +24,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Easily customize Windows accent colors. Useful for tweaking the titlebar appearance, for instance.
 
-* [OldNewExplorer](https://m.majorgeeks.com/files/details/oldnewexplorer.html): Allows one to return to the good old days when cats were cats, dogs were dogs, and File Explorer was less ornate and cluttered.
-
-* [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc.
+* [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc. Currently in need of an update for Win11 22H2.
 
 * [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/)/. The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
@@ -53,9 +51,9 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * Firefox extensions:
   * [Edge-style vertical tabs](https://github.com/ranmaru22/firefox-vertical-tabs) for Firefox
-  * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).) 
+  * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).)
   * [Wikiwand](https://www.wikiwand.com/): Modernizes the Wikipedia UI; customizable.
-  * [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): More userscript goodness. 
+  * [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): More userscript goodness.
   * [Bonjour startpage](https://bonjourr.fr/): Minimalist startpage: no more, no less. Puts you in that "I'm ready to take on the day with webbrowsing" mood.
 
 ## System maintenance and optimization
@@ -180,6 +178,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 * I subscribe to the philosophy that emulators for retro-gaming should have retro-styled icons,  such as the [Antiseptic icons by starvingartist](https://www.deviantart.com/starvingartist/art/Antiseptic-Videogame-Systems-23217105), those found in [Ruckage's Snes Mini EmulationStation theme for Retropie](https://github.com/ruckage/es-theme-snes-mini), [ClusterM's hakchi2](https://github.com/ClusterM/hakchi2), [Faustbear's Additional Icon Pack 2.1 for Hakchi/CE/NESC/SNESC](https://imgur.com/gallery/09qQibS) and [JaffaCakeLover's Pixel Gaming Machine Icons](https://www.deviantart.com/jaffacakelover/art/Pixel-Gaming-Machine-Icons-413704203). For WiiU, see also Taurosa's icons [here](https://www.deviantart.com/taurosa/art/Basic-WiiU-Icon-326889848) and [here](https://www.deviantart.com/taurosa/art/Deluxe-WiiU-Icon-326889969).  
 
 ## Windows settings and Hacks
+
 * Add items to the (classic) right-click context menu. Here is an example of adding a command to trim margins from PDF files (using [pdfCropMargins](https://github.com/abarker/pdfCropMargins)), in a form ready to be saved as a reg file and imported via regedit.
 
 ```
@@ -200,6 +199,8 @@ To operate on files other than PDF, open the extension in [Types](https://ystr.g
 
 * Disable UAC and open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0`
 
+  *Warning*: This breaks installation of the [Google Play store version of the Windows Subsystem for Android](https://github.com/Paxxs/BuildWSA/releases). Temporarily disable this hack (change the 0 to a 1 at the end of the last command) before attempting an install. 
+
 * Change taskbar icons of pinned UWP apps. One needs [Win7AppId1.1](https://code.google.com/archive/p/win7appid/downloads). Get the AppID of the desired app by running `get-StartApps | Format-Table | Out-String -width 9999` in PowerShell. Create a custom shortcut  to `explorer.exe shell:appsFolder\YOURAPPID`. Back in Powershell, run `Win7AppId1.1 "YourAppShortcut.lnk" "YOURAPPID"`. Change the icon of the shortcut to whatever you desire, then pin the icon to the taskbar. (Thanks to dpcdpc11 for making me aware of [this method](https://dpcdpc11.com/custom-taskbar-icons-guide/)!)
 
 * One can change the Windows 11 Settings app icon by replacing files in `C:\Windows\ImmersiveControlPanel\images`. To change the taskbar icon, relace the `logo.targetsize*` pngs with images of the same size.
@@ -210,11 +211,13 @@ To operate on files other than PDF, open the extension in [Types](https://ystr.g
 
 * Rebind built-in hotkeys. For example, I prefer Win-S to open Everything search vs. Windows' built-in search. For this, I set Everything to open with the obscure hotkey combination Ctrl-Alt-U. Then I run the one-line [AutoHotkey](https://www.autohotkey.com/) script `#S::SendInput ^!u`.
 
-* Windows 11's implementation of widgets doesn't allow you to hide the news feed. One can at least [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.) entirely. 
+* Windows 11's implementation of widgets doesn't allow you to hide the news feed. One can at least [remove or disable Widgets](https://winaero.com/remove-and-uninstall-widgets-from-windows-11/#:~:text=In%20the%20Local%20Group%20Policy,Click%20Apply%20and%20OK.) entirely.
 
 ## Other resources
 
 * [Scott Hanselman's list of tools for power users](http://hanselman.com/tools)
+
+* retrial's [Windows Ultimate Collection Guides](https://forum.xda-developers.com/t/windows-ultimate-collection-guides.4507867/#post-87601365) (curated software lists) at the XDA forums
 
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., this very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-20#post-1687577). Forum registration required.
 

@@ -9,6 +9,8 @@
 
 * [xmplay](https://www.un4seen.com/):  ridiculously lightweight music player. Skinnable. But could use better high dpi support... See also [AIMP](https://www.aimp.ru/). **Decided [MPC-HC](https://github.com/clsid2/mpc-hc/releases/) was minimal enough for me.**
 
+* [OldNewExplorer](https://m.majorgeeks.com/files/details/oldnewexplorer.html): Allows one to return to the good old days when cats were cats, dogs were dogs, and File Explorer was less ornate and cluttered. **I am back to the default Explorer appearance now that 22H2 has tabs.**
+
 
 * [Ferdium](https://ferdium.org/): centralized portal for webapps. I use this to unite several different chat apps (Google Messages, Hangouts, Discord). The Facebook Messenger portal doesn't play nice with video calling, so I use [Caprine](https://sindresorhus.com/caprine/) for that. **Replaced in my workflow by [Beeper](https://www.beeper.com/).**
 
