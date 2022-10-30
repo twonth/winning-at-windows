@@ -24,7 +24,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Easily customize Windows accent colors. Useful for tweaking the titlebar appearance, for instance.
 
-* [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc. Currently in need of an update for Win11 22H2.
+* [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc. 
 
 * [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/)/. The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
@@ -181,21 +181,21 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * Add items to the (classic) right-click context menu. Here is an example of adding a command to trim margins from PDF files (using [pdfCropMargins](https://github.com/abarker/pdfCropMargins)), in a form ready to be saved as a reg file and imported via regedit.
 
-```
+  ```
 
-Windows Registry Editor Version 5.00
+  Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell]
+  [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell\Trim margins]
-"Icon"="\"C:\\Users\\anon\\Insync\\OneDrive\\Pictures\\Custom taskbar icons\\crop.ico\""
+  [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell\Trim margins]
+  "Icon"="\"C:\\Users\\anon\\Insync\\OneDrive\\Pictures\\Custom taskbar icons\\crop.ico\""
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell\Trim margins\command]
-@="C:\\Python310\\Scripts\\pdf-crop-margins.exe \"%1\""
+  [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MuPDF\shell\Trim margins\command]
+  @="C:\\Python310\\Scripts\\pdf-crop-margins.exe \"%1\""
 
-```
+  ```
 
-To operate on files other than PDF, open the extension in [Types](https://ystr.github.io/types/); "MuPDF" in the above should be replaced with whatever you see in the "Class" field. Of course, the above icon path and command names (both the name "Trim margins" and the actual command to be executed in the final line) also need to be tailored to your application.
+  To operate on files other than PDF, open the extension in [Types](https://ystr.github.io/types/); "MuPDF" in the above should be replaced with whatever you see in the "Class" field. Of course, the above icon path and command names (both the name "Trim margins" and the actual command to be executed in the final line) also need to be tailored to your application.
 
 * Disable UAC and open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0`
 
