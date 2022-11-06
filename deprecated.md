@@ -16,6 +16,9 @@
 
 * [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone): Apply the Windows 11 Mica transparency effect to win32 apps. Does wonders for Explorer. **Replaced by [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica).**
 
+* [File Unlocker](https://github.com/marianpekar/file-unlocker-for-windows): Easily find and kill processes that are locking a file or folder. **Replaced by the File Locksmith tool within [PowerToys](https://github.com/microsoft/PowerToys/releases/tag/v0.64.0).**
+
+
 
 
 ***

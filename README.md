@@ -86,7 +86,15 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 ## Usability/Quality of life enhancements
 
-* [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Microsoft's own collection of quality-of-life enhancements for Windows. Favorites of mine are Always on Top, Awake, Color Picker, FancyZones. I use Fluent Search (below) in place of PowerToys Run, and [XnShell](https://www.xnview.com/en/xnshell/) instead of Image Resizer.
+* [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Microsoft's own collection of quality-of-life enhancements for Windows. Favorites of mine are 
+  * Always on Top: self explanatory,
+  * Awake: prevents your PC from going to sleep,
+  * Color Picker: mouseover a pixel to get the color code,
+  * FancyZones: snap windows into preset configurations,
+  * File Locksmith: determines which processes are using a file or folder and offers you the option of terminating them,
+  * Text Extractor: OCRs a selected region of your screen and places the resulting text in your clipboard.
+
+  I use Fluent Search (below) in place of PowerToys Run, and [XnShell](https://www.xnview.com/en/xnshell/) instead of Image Resizer.
 
 * [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver.
 
@@ -131,8 +139,6 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 * [SuperF4](https://stefansundin.github.io/superf4/): when Alt-F4 isn't good enough. Forcefully kill foreground apps with Ctrl-Alt-F4. Endorsed by Bowser.
 
 * [ShellExView](https://www.nirsoft.net/utils/shexview.html), [ShellMenuView](https://www.nirsoft.net/utils/shell_menu_view.html), [ShellMenuNew](https://www.nirsoft.net/utils/shell_menu_new.html), and [OpenWithView](https://www.nirsoft.net/utils/open_with_view.html): Remove unwanted entries from Explorer's (old school) right-click context menu.  
-
-* [File Unlocker](https://github.com/marianpekar/file-unlocker-for-windows): Easily find and kill processes that are locking a file or folder.
 
 * [Incipitor](https://www.dcmembers.com/bgmcoder/download/incipitor/): automates the process of adding shortcuts to the Windows start menu.
 
