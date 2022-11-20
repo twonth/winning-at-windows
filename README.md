@@ -54,13 +54,13 @@ Software previously listed that I have taken out of rotation is [here](deprecate
   * [Stylus](https://github.com/openstyles/stylus): Browser extension that can customize the appearance of websites via injected CSS, with a [large database of prebuilt scripts](https://userstyles.world/). (One can also use [scripts for the competing, sketchier extension Stylish](https://userstyles.org).)
   * [Wikiwand](https://www.wikiwand.com/): Modernizes the Wikipedia UI; customizable.
   * [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/): More userscript goodness.
-  * [Bonjour startpage](https://bonjourr.fr/): Minimalist startpage: no more, no less. Puts you in that "I'm ready to take on the day with webbrowsing" mood.
+  * [Start.photos](https://addons.mozilla.org/en-US/firefox/addon/a-photographic-start/): Minimalist startpage showcasing images from [unsplash](https://unsplash.com/)
 
 ## System maintenance and optimization
 
 * [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version.
 
-* [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The [nightly versions](https://processhacker.sourceforge.io/nightly.php) have dark mode support.
+* [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer): Task Manager on steroids. Useful for searching handles and DLL processes.
 
 * [Chocolatey](https://chocolatey.org/): package manager for Windows, through powershell. Slowly being replaced by [winget](https://winget.run/).
 

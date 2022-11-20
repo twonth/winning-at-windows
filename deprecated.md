@@ -19,6 +19,9 @@
 * [File Unlocker](https://github.com/marianpekar/file-unlocker-for-windows): Easily find and kill processes that are locking a file or folder. **Replaced by the File Locksmith tool within [PowerToys](https://github.com/microsoft/PowerToys/releases/tag/v0.64.0).**
 
 
+* [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The [nightly versions](https://processhacker.sourceforge.io/nightly.php) have dark mode support. **Replaced by [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).**
+
+
 
 
 ***
