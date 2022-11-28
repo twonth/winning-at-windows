@@ -205,7 +205,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * Disable UAC and open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0`
 
-  *Warning*: This breaks installation of the [Google Play store version of the Windows Subsystem for Android](https://github.com/Paxxs/BuildWSA/releases). Temporarily disable this hack (change the 0 to a 1 at the end of the last command) before attempting an install. 
+  *Warning*: This breaks installation of the [Google Play store version of the Windows Subsystem for Android](https://github.com/creative-builds/WSA-Magisk/releases/). Temporarily disable this hack (change the 0 to a 1 at the end of the last command) before attempting an install. 
 
 * Change taskbar icons of pinned UWP apps. One needs [Win7AppId1.1](https://code.google.com/archive/p/win7appid/downloads). Get the AppID of the desired app by running `get-StartApps | Format-Table | Out-String -width 9999` in PowerShell. Create a custom shortcut  to `explorer.exe shell:appsFolder\YOURAPPID`. Back in Powershell, run `Win7AppId1.1 "YourAppShortcut.lnk" "YOURAPPID"`. Change the icon of the shortcut to whatever you desire, then pin the icon to the taskbar. (Thanks to dpcdpc11 for making me aware of [this method](https://dpcdpc11.com/custom-taskbar-icons-guide/)!)
 
