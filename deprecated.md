@@ -22,6 +22,9 @@
 * [Process Hacker](https://github.com/processhacker/processhacker): Task Manager replacement. The [nightly versions](https://processhacker.sourceforge.io/nightly.php) have dark mode support. **Replaced by [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).**
 
 
+* [SUMo](https://www.kcsoftwares.com/?sumo): Software Update MOnitor. Scans through your installed software to find applications which can be upgraded to a newer version. **Reached EOL October 2023**.
+
+* [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver. **I went back to Listary Pro.**
 
 
 ***
