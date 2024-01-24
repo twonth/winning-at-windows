@@ -178,7 +178,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [macOSicons](https://macosicons.com) has a MacOS-style icon for almost everything.
 
-* those who appreciate the Windows 10/11 icon design language will want to check out the [Fluency collection](https://icons8.com/icons/fluency) at [icons8](https://icons8.com). See also [this repository](https://github.com/icon11-community/Folder11) for folder icons.
+* those who appreciate the Windows 10/11 icon design language will want to check out the [Fluency collection](https://icons8.com/icons/fluency) at [icons8](https://icons8.com). See also [this repository](https://github.com/icon11-community/Folder11) and [this one](https://github.com/sameerasw/folder-icons) for folder icons.
 
 * there are an endless number of different styles of Linux icons; I am partial to  elementaryOS. Many icons in that style are collected [here](https://github.com/Macintosh98/elementosh-icons).
 
