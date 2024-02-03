@@ -39,7 +39,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
   * [Droptop](https://github.com/Droptop-Four): Rainmeter skin providing a highly customizable menu bar at the top of the screen (think MacOS). Even better when used with [Yaron's System Monitor](https://github.com/Yaron2334/SystemMonitor/) app (requires [HWiNFO](https://www.hwinfo.com/)).
 
-  * [Omnimo](https://omnimo.info/), [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064), and [Longhorn Sidebar](https://www.deviantart.com/fediafedia/art/Longhorn-Sidebar-for-Rainmeter-947066452): two of the most (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/). If you like Mac-style widgets, see also [MontereyRainmeter](https://github.com/creewick/MontereyRainmeter) by creewick.
+  * [Omnimo](https://omnimo.info/), [Big Sur](https://www.deviantart.com/fediafedia/art/Big-Sur-1-0-BETA-for-Rainmeter-846882462?comment=1%3A846882462%3A4964685064), and [Longhorn Sidebar](https://www.deviantart.com/fediafedia/art/Longhorn-Sidebar-for-Rainmeter-947066452): (deservedly) popular skin suites for Rainmeter, by [fediafedia](https://fediafedia.com/). If you like Mac-style widgets, see also [MontereyRainmeter](https://github.com/creewick/MontereyRainmeter) by creewick.
 
   * Jax enjoys [pushing the limits of what one would think is possible with Rainmeter](https://jaxcore.app/). For example, [YourFlyouts](https://www.deviantart.com/jaxoriginals/art/919259685) is a pretty great ModernFlyouts alternative.
 
