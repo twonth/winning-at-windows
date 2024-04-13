@@ -27,5 +27,7 @@
 * [Fluent Search](https://www.fluentsearch.net/): Full featured search bar for Windows. The killer feature (for me) is the ability to find a file and drag and drop it from the search window into one of Windows' "open file" dialogue boxes. Huge timesaver. **I went back to Listary Pro.**
 
 
+* [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/): fine-tune your CPU to balance power and performance. You can set up profiles to automatically switch power management options when toggling between being plugged in and running off battery. **Intel seems to put the kibosh on undervolting. Also... I've largely switched to AMD.** 
+
 ***
 <a href="https://www.flaticon.com/free-icons/close" title="close icons">Cancel icon created by Freepik - Flaticon</a>

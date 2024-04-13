@@ -22,7 +22,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [RoundedTB](https://github.com/RoundedTB/RoundedTB): Add margins and/or rounded corners to the taskbar.
 
-* [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Easily customize Windows accent colors (+ more). Useful for tweaking the titlebar appearance, for instance.
+* [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter): Originally began as a tool to customize Windows accent colors(useful for tweaking the titlebar appearance, for instance). Now does much more, allowing one to manage everything from sounds to icons to fonts!
 
 * [ModernFlyouts](https://modernflyouts-community.github.io/): Modern-looking pop-up indicators for changing volume, brightness, toggling caps-lock, etc. 
 
@@ -48,6 +48,8 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 * [No!! Meiryo UI](https://github.com/Tatsu-syo/noMeiryoUI):  Change Windows system fonts. Allows more fine-grained control than (say) WinAeroTweaker.
 
 * [Sound Manager](https://github.com/ORelio/Sound-Manager): "Sound schemes" are back, for those old enough to remember and shameless enough to admit it. The only way I know to set a custom startup chime on Windows 11. (Even modifying imageres.dll.mun didn't work for me.)
+
+* Sure, you don't need a screen saver these days, but don't you want one? [Screensavers Planet](https://www.screensaversplanet.com/) has a ton, including retro classics like [Flying Toasters](https://www.screensaversplanet.com/screensavers/after-dark-flying-toasters-1153/) and [Johnny Castaway](https://www.screensaversplanet.com/screensavers/johnny-castaway-237/).
 
 * Firefox extensions:
   * [Edge-style vertical tabs](https://github.com/ranmaru22/firefox-vertical-tabs) for Firefox
@@ -81,7 +83,6 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [Veeam Agent](https://www.veeam.com/agent-for-windows-community-edition.html): totally painless way to manage incremental backups of your entire system. Free!
 
-* [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/): fine-tune your CPU to balance power and performance. You can set up profiles to automatically switch power management options when toggling between being plugged in and running off battery.
 
 ## Usability/Quality of life enhancements
 
@@ -96,6 +97,8 @@ Software previously listed that I have taken out of rotation is [here](deprecate
   I use [XnShell](https://www.xnview.com/en/xnshell/) instead of Image Resizer.
 
 * [Listary](https://www.listary.com/pro): Terrific search bar for Windows. Adds the ability to quickly find and open files from any "open file" dialogue. No more navigating seas of directories: truly a killer feature!
+
+* [WinSetView](https://github.com/LesFerch/WinSetView): Easily set your default view in Windows File Explorer --- for example, to always show details. 
 
 * [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): restores functionality from Windows 10 that was removed in the "upgrade" to Windows 11 (and does much else besides). I like the clean-looking Alt-Tab replacement that the author built in as well as the taskbar weather widget.
 
@@ -145,7 +148,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [Desktop Media](https://www.softpedia.com/get/Desktop-Enhancements/Other-Desktop-Enhancements/Desktop-Media.shtml): add icons for available drives to the Windows desktop.
 
-* [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., Notepad++).
+* [notepad-replacer](https://github.com/olohmann/notepad-replacer): redirects calls to `notepad.exe` to your favorite text editor (e.g., [Notepad++](https://notepad-plus-plus.org/)).
 
 ## Apps for minimalists
 
@@ -229,6 +232,8 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 * [mydigitallife forums](https://forums.mydigitallife.net/): These folks are serious about Windows. See, e.g., th is very large list of [Windows 11 tweaks, fixes, and modifications](https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/). Forum registration required.
 
 * [elevenforum](https://www.elevenforum.com/): Another venue for community discussions of Windows customization.  See also [tenforums](https://www.tenforums.com/). The tutorials ([Windows 10](https://www.tenforums.com/tutorials/1977-windows-10-tutorial-index.html), [Windows 11](https://www.elevenforum.com/tutorials/)) are particularly valuable.
+
+* [Courage-1984](https://github.com/Courage-1984/Windows-Ricing-Privacy-Customization-Optimization) has put together a useful list, similar in spirit to this one, but including a focus on security and privacy.
 
 ***
 
