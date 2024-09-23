@@ -6,7 +6,9 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 ## "Ricing" (appearance customization)
 
-* [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as [IconPackager](https://www.stardock.com/products/iconpackager/) (replaces the most common system icons), [WindowFX](https://www.stardock.com/products/windowfx/) (adds effects when opening, closing, minimizing, moving windows), [TouchTasks](https://www.stardock.com/products/touchtasks/) (triggers actions by touching certain screen corners), and [Start11](https://www.stardock.com/products/start11/) (alternative start menu layouts).
+* [Windhawk](https://windhawk.net/) Incredible tool for modifying Windows, with an ever-expanding (free) [marketplace](https://windhawk.net/mods). Stable and light on resources. The [Resource Redirect mod](https://windhawk.net/mods/icon-resource-redirect) is probably the least painful way to replace Windows icons.
+
+* [Stardock software](https://www.stardock.com/): Several tools for Windows customization, such as [IconPackager](https://www.stardock.com/products/iconpackager/) (replaces the most common system icons --- but probably you should use Windhawk), [WindowFX](https://www.stardock.com/products/windowfx/) (adds effects when opening, closing, minimizing, moving windows), [TouchTasks](https://www.stardock.com/products/touchtasks/) (triggers actions by touching certain screen corners), and [Start11](https://www.stardock.com/products/start11/) (alternative start menu layouts). 
 
 * Fans of alternative start menus will also want to check out [StartAllBack](https://www.startallback.com/) and [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu).
 
@@ -28,10 +30,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * [filetypesman](https://www.nirsoft.net/utils/file_types_manager.html): tool for managing filetype icons and associations. A useful alternative is [types](https://ystr.github.io/types/). The latter hasn't been updated in several years but seems to work OK on Windows 11; in fact, unlike filetypesman it doesn't seem to stop responding for unknown reasons.
 
-* [Resource Hacker](https://angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons. To gain permissions to customize icons built in to Windows, you will want to run Resource Hacker with something like [NSudo](https://github.com/M2Team/NSudo). Windows keeps many (but not all) of its icons in **\Windows\SystemResources\shell32.dll.mun** and **\Windows\SystemResources\imageres.dll.mun**.
-
-  * Sample usage: On Windows 11, IconPackager does not change the icon for nonempty folders. For this, one should replace Icon Group 162 in imageres.dll.mun.
-  * On Win11 22H2 or above, to disable folder thumbnail previews, overwrite Icon Group 6 in imageres.dll.mun with your generic folder icon. To change the Home icon in the File Explorer sidebar, overwrite Icon Group 51380 in shell32.dll.mun. (But Windows can be finicky about granting permissions; a simpler solution is to [remove the home icon altogether](https://www.elevenforum.com/t/add-or-remove-home-in-navigation-pane-of-file-explorer-in-windows-11.2449/)!)
+* [Resource Hacker](https://angusj.com/resourcehacker/): view and edit resources in EXE, DLL, and related files. Essential tool for changing stubborn icons.
 
 * [namazso/SecureUxTheme: A secure boot compatible in-memory UxTheme patcher (github.com)](https://github.com/namazso/SecureUxTheme): allows one to apply custom themes without modifying system files, and without rebooting (!)
 
@@ -209,7 +208,7 @@ Software previously listed that I have taken out of rotation is [here](deprecate
 
 * Disable UAC and open all apps as administrator (registry hack) `REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /f /v EnableLUA /t REG_DWORD /d 0`
 
-  *Warning*: This breaks installation of the [Google Play store version of the Windows Subsystem for Android](https://github.com/creative-builds/WSA-Magisk/releases/). Temporarily disable this hack (change the 0 to a 1 at the end of the last command) before attempting an install. 
+  *Warning*: This breaks installation of the [Google Play store version of the Windows Subsystem for Android](https://github.com/MustardChef/WSABuilds). Temporarily disable this hack (change the 0 to a 1 at the end of the last command) before attempting an install. 
 
 * Change taskbar icons of pinned UWP apps. One needs [Win7AppId1.1](https://code.google.com/archive/p/win7appid/downloads). Get the AppID of the desired app by running `get-StartApps | Format-Table | Out-String -width 9999` in PowerShell. Create a custom shortcut  to `explorer.exe shell:appsFolder\YOURAPPID`. Back in Powershell, run `Win7AppId1.1 "YourAppShortcut.lnk" "YOURAPPID"`. Change the icon of the shortcut to whatever you desire, then pin the icon to the taskbar. (Thanks to dpcdpc11 for making me aware of [this method](https://dpcdpc11.com/custom-taskbar-icons-guide/)!)
 
